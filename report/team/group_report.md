@@ -5,7 +5,7 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
+- Tên nhóm: C2
 - Thành viên: xem `TEAM.md`
 - Candidate problem được chọn (1 câu):
 - Quyết định cuối: Go / Not Yet / No-Go
@@ -18,26 +18,25 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Nhài Phùng | Khi cần theo dõi deadline, tôi muốn tổng hợp thông báo từ nhiều kênh để tiết kiệm thời gian. | Sinh viên| Thông báo phân tán nhiều nơi. | Bạn đã từng bỏ lỡ deadline chưa? |
+| 2 |Nhài Phùng  | Khi làm báo cáo nhóm, tôi muốn tự động tổng hợp nội dung để tiết kiệm thời gian. |Thu thập và chỉnh sửa báo cáo thủ công. |Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?  |
+| 3 | Nhài Phùng |Khi cần tìm lại thông tin trong group chat, tôi muốn tìm nhanh nội dung cũ. | Sinh viên| Tin nhắn quá nhiều, khó tìm kiếm. | Tính năng tìm kiếm và ghim tin nhắn có đủ chưa? |
+| 4 |Nguyễn Gia Nam | Khi quản lý dự án nhóm, tôi muốn nắm tiến độ và điều chỉnh kế hoạch kịp thời mà không phải liên tục hỏi từng thành viên. |Trưởng nhóm dự án, nhóm sinh viên  |Thành viên ít chủ động cập nhật; trưởng nhóm phải hỏi thủ công và khó đánh giá tiến độ tổng thể.  |Câu hỏi của Nhài Phùng :Nhóm làm vài giờ có cần hệ thống này không? AI có cần thiết hơn checklist hoặc lịch nhắc?   |
+| 5 | Nguyễn Gia Nam | Khi học từ nhiều tài liệu khác nhau, tôi muốn tổng hợp kiến thức thành ghi chú có cấu trúc thống nhất để dễ hiểu và ôn tập. | Sinh viên, người tự học |Tài liệu có cấu trúc khác nhau, khó đối chiếu và kết nối nội dung thành ghi chú nhất quán.  |Câu hỏi của abc: AI tổng hợp có làm giảm khả năng tự học không? Dùng mẫu ghi chú cố định có đủ không?  |
+| 6 |Nguyễn Gia Nam  |Khi tìm tài liệu cho một chủ đề, tôi muốn nhanh chóng xác định nguồn phù hợp và đáng tin cậy để phục vụ học tập, nghiên cứu.  |Sinh viên, người nghiên cứu  |Phải tìm kiếm, đọc sơ bộ và đánh giá nhiều nguồn trước khi lựa chọn tài liệu phù hợp.  |Câu hỏi của bcx: Vấn đề có thực sự nghiêm trọng không? Công cụ tìm kiếm hiện có chưa giải quyết được ở bước nào?  |
+| 7 |Hạnh Lương |khi ra vào vinhomes vào giờ giới nghiêm, tôi muốn việc xác minh danh tính được thực hiện nhanh chóng và chính xác hơn để không phải tốn nhiều thời gian đứng chờ ngoài cổng |Cư dân vinhomes|Dữ liệu cá nhân truy cập khó và cần sự phối hợp của cư dân |Có thực sự đang để đầu tư nhiều chi phí tới vậy không? |
+| 8 |Hạnh Lương |khi đến bữa ăn trưa, tôi muốn biết còn bao nhiêu bàn ăn còn trống dưới căn tin để không mất thời gian đi xuống rồi lại chờ đợi| học viên VinUni |Học viên VinUni |Chi phí của solution cao hơn lợi ích thu được |Người dùng có chịu trả phí không? Có quan trọng không? |
+| 9 |Hạnh Lương |khi sáng thức dậy, cư dân Vinhomes muốn biết những tiện ích nào đang sẵn sàng và những cảnh báo sớm từ trước để bố trí lịch cá nhân phù hợp như nên tập thể dục ở công viên vào khung giờ nào để tránh mưa hay ảnh hưởng cực đoan từ thời tiết |Cư dân vinhomes |Chi phí của solution cao hơn lợi ích thu được | |
+
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A | | |
-| B | | |
-| C | | |
+| A-Học tập / tổng hợp |Tổng hợp deadline, Gom báo cáo nhóm,Tổng hợp kiến thức |Tổng hợp, tìm kiếm và tổ chức thông tin phục vụ học tập |
+| B— Tìm kiếm thông tin |Tìm thông tin trong group chat |Tìm đúng thông tin trong nhiều nguồn rời rạc |
+| C— Quản lý công việc |Theo dõi tiến độ nhóm |Theo dõi tiến độ, cập nhật công việc và giảm quản lý thủ công |
+| D — Tiện ích sinh hoạt |Xác minh ra vào VinHomes; Tìm bàn trống căn tin |Giảm thời gian chờ đợi và cải thiện trải nghiệm sinh hoạt |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
