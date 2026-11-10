@@ -7,7 +7,7 @@
 
 - Tên nhóm: C2
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu):
+- Candidate problem được chọn (1 câu): Khi cần theo dõi deadline, tôi muốn tổng hợp thông báo từ nhiều kênh để tiết kiệm thời gian.
 - Quyết định cuối: Not Yet
 
 ---
