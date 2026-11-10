@@ -4,15 +4,15 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: C2
+- Candidate problem nhóm chọn (1 câu): Học viên mất ~30 phút/ngày dò LMS, email và group chat để biết deadline, vì thông báo chính thức bị lẫn giữa tin hỏi đáp của học viên.
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 | Phùng Thị Nhài | 2A202603725 | Đề xuất candidate được chọn; ⟨vai trò khác⟩ | ⟨GitHub⟩ |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -54,3 +54,25 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Điều mình học được từ phần nhóm:**
 
 -
+
+### PhungThiNhai-2A202603725
+
+**Phần việc phụ trách:**
+
+- Đề xuất candidate problem được nhóm chọn (Problem Card #1: deadline rải rác nhiều kênh)
+- ⟨CẦN ĐIỀN: phần việc khác được phân công⟩
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Cung cấp dữ liệu baseline: ~30 phút/ngày (LMS 1', email 5', group chat 15', chép lịch/hỏi bạn ~9'), hỏi bạn ~4 lần/tuần, lớp ~85 người
+- Phát hiện bottleneck thật là thông báo của lead bị lẫn giữa tin hỏi đáp, và lớp đã có kênh thông báo riêng nhưng ít dùng
+- ⟨CẦN ĐIỀN⟩
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 2.1 (pitch #1–3), mục 4.1 (quy trình hiện tại), mục 5 (số liệu Problem Statement v0)
+- `report/individual/2A202603725_PhungThiNhai.md` mục 3 (Problem Card #1)
+
+**Điều mình học được từ phần nhóm:**
+
+- ⟨CẦN ĐIỀN — tự viết⟩
