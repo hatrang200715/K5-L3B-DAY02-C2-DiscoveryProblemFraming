@@ -142,20 +142,18 @@ Prompt: "Đóng vai PM hoài nghi, chỉ ra lỗ hổng trong Problem Card #1, �
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-> Điền sau khi làm nhóm, bằng việc bạn đã thực sự làm.
-
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Pitch Card #1 (deadline rải rác nhiều kênh) kèm câu hỏi "chỉ cần ghim bảng deadline là xong?" | Card #1 được nhóm chọn làm candidate |
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt cho ý tưởng quản lý tiến độ nhóm của Nam: "Nhóm làm vài giờ có cần hệ thống này không? AI có cần thiết hơn checklist hoặc lịch nhắc?" | Giúp nhóm thấy dự án ngắn chỉ cần bảng phân công + lịch nhắc; ý tưởng này bị loại khỏi shortlist |
 | Nhận phản biện | Câu hỏi tôi nhận được: "Bạn đã từng bỏ lỡ deadline chưa?" (Card #1); "Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?" (Card #2); "Tính năng tìm kiếm và ghim tin nhắn có đủ chưa?" (Card #3) | Tôi đã sửa gì: thừa nhận chưa lỡ deadline nào → đổi pain thành mất thời gian + phụ thuộc bạn bè, đổi metric sang phút/ngày và số lần hỏi bạn |
-| Gom cluster / cây OST | | |
+| Gom cluster / cây OST | Tham gia nhóm các ý tưởng theo nhu cầu phía sau thay vì theo tên giải pháp. Các ý về deadline, thông báo lớp và tìm lại nội dung cũ đều liên quan đến việc người học phải tự tìm thông tin ở nhiều nơi, nhưng mức độ ảnh hưởng khác nhau | Nhóm tập trung vào cluster "thông báo học tập phân tán"; các ý "xây app/dashboard/chatbot" bị gạch khỏi cây OST vì là solution đội lốt opportunity |
 | Chọn candidate problem | Đề xuất candidate #1, cung cấp số liệu baseline | Nhóm thống nhất chọn chủ đề của tôi |
 | Kiểm chứng / research | Phỏng vấn 2 học viên ngoài nhóm qua Zalo (snapshot 02, 03); cung cấp số liệu tự ghi nhận và tín hiệu phản bác (lớp đã có kênh thông báo riêng nhưng ít dùng); thêm bộ lọc Gmail vào bảng research | Cả 2 người đều suýt lỡ vì deadline bị đổi → nhóm xác định pain cốt lõi là bỏ lỡ thay đổi deadline; 1 người chỉ mất 5–7 phút → tín hiệu phản bác về pain "tốn thời gian" |
 | Quy trình nhóm | Cung cấp quy trình hiện tại 4 bước kèm số phút từ Card #1 | Bổ sung dữ liệu cho mục 3.2 báo cáo nhóm |
 | Problem Statement | Cung cấp Actor, Bottleneck, Impact từ Card #1 | Góp phần xác định pain là mất thời gian + lo bỏ sót, không phải đã lỡ hạn |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Mức can thiệp AI | Cùng nhóm cân nhắc phần nào xử lý được bằng Rule (lọc email, lọc theo người gửi), phần nào cần AI đọc thông báo viết tự do. Đề xuất AI không tự tạo deadline mà phải hiển thị nội dung và nguồn gốc để học viên kiểm tra | Nhóm chọn Workflow (Rule + AI + người xác nhận), không dùng Agent; boundary "mọi deadline phải có thông báo gốc để đối chiếu" |
+| Quyết định | Đồng ý quyết định Not Yet; đề xuất giới hạn MVP vào thông báo mẫu/nội dung người dùng dán vào, chưa tích hợp toàn bộ nền tảng | Nhóm tránh cam kết tích hợp Discord, Gmail, Outlook, Phoenix, Zalo ngay từ đầu; ưu tiên kiểm tra khả năng nhận diện thông báo cần hành động và deadline |
 
 ---
 
@@ -163,32 +161,67 @@ Prompt: "Đóng vai PM hoài nghi, chỉ ra lỗ hổng trong Problem Card #1, �
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | Dùng Claude gợi ý môi trường , ngữ cảnh và viết dạng Job Story | Gợi ý nhiều lăng kính, viết đúng mẫu Job Story | Không biết số liệu thật của tôi; một số ý là giả định chung chung của sinh viên (vd. "hẹn lịch họp nhóm" tôi không thực sự gặp) | Tự điền số liệu thật cho 3 problem chính (30 phút/ngày, lớp 85 người; 20 phút × 15 lần/tháng; 20–30 lần/tuần × 2–3 phút); bỏ "hẹn lịch họp nhóm". Số liệu của #4 (ôn thi) và #5 (chia tiền phòng) do AI ước lượng, tôi kiểm tra lại cho khớp trải nghiệm của mình |
+| CP1 Scan | Dùng Claude gợi ý danh sách problem ban đầu và viết dạng Job Story | Gợi ý nhiều lăng kính, viết đúng mẫu Job Story | Không biết số liệu thật của tôi; một số ý là giả định chung chung của sinh viên (vd. "hẹn lịch họp nhóm" tôi không thực sự gặp) | Tự điền số liệu thật cho 3 problem chính (30 phút/ngày, lớp 85 người; 20 phút × 15 lần/tháng; 20–30 lần/tuần × 2–3 phút); bỏ "hẹn lịch họp nhóm". Số liệu của #4 (ôn thi) và #5 (chia tiền phòng) do AI ước lượng, tôi kiểm tra lại cho khớp trải nghiệm của mình |
 | CP2 Problem Card | Nhờ Claude dựng khung card, quy trình nháp và đóng vai PM hoài nghi phản biện | Chỉ ra metric thiếu baseline, phương án không dùng AI có thể đã đủ | Đặt metric chính là "không lỡ deadline", trong khi tôi chưa lỡ lần nào; giả định pain là thiếu thông tin, thật ra là quá nhiều kênh và nhiễu; gợi ý kênh thông báo riêng mà không biết lớp đã có nhưng ít dùng | Đổi metric sang thời gian kiểm tra (30 → ≤ 5 phút/ngày) và số lần hỏi bạn bè (4 → ≤ 1 lần/tuần); sửa bottleneck thành "lọc thông báo của lead khỏi câu hỏi học viên"; ghi rõ kênh thông báo riêng đã có nhưng không hiệu quả. Số phút từng bước của Card #2, #3 là ước lượng, ghi rõ trong file |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP4 Research | Nhờ Claude soạn bộ câu hỏi phỏng vấn theo The Mom Test và gợi ý công cụ để research (Gmail filter, Google Calendar) | Câu hỏi tập trung vào hành vi đã xảy ra ("lần gần nhất…", "tuần này…"), tránh hỏi "bạn có muốn dùng app không" | AI liệt kê công cụ nhưng không biết lớp đã có kênh thông báo riêng và kênh đó ít được dùng; không biết người dùng thực tế mất bao lâu | Tự phỏng vấn 2 học viên ngoài nhóm qua Zalo; ghi cả tín hiệu ủng hộ (2 người suýt lỡ vì đổi hạn) lẫn phản bác (1 người chỉ mất 5–7 phút); tự mở kiểm tra từng link research |
+| CP5 Quy trình | Dùng AI hỗ trợ diễn đạt quy trình As-Is: mở LMS, đọc email, lướt nhóm chat, lọc thông tin rồi ghi deadline | Trình bày luồng công việc thành các bước dễ thảo luận, nhận ra bước lướt nhóm chat chiếm nhiều thời gian nhất | Quy trình AI đề xuất ban đầu quá chung, không phản ánh việc thông báo chính thức bị chìm giữa câu hỏi trong group chat | Điều chỉnh quy trình theo cách tôi thực sự làm, giữ số phút là ước lượng và ghi kế hoạch đo log 1 tuần |
+| CP5–6 Problem Statement | Nhờ AI kiểm tra cách sắp xếp Actor, Bottleneck, Impact, Metric và Boundary | Giúp kiểm tra mô tả đã tập trung vào một người dùng và một vấn đề cụ thể chưa | AI có xu hướng diễn đạt pain thành "người học đã bỏ lỡ deadline", trong khi tôi chưa từng lỡ hạn và phỏng vấn chỉ cho thấy các trường hợp suýt bỏ lỡ | Giữ cách diễn đạt thận trọng: mất thời gian kiểm tra, lo bỏ sót, phải hỏi bạn bè xác nhận; tách rõ trải nghiệm của tôi với kết quả phỏng vấn |
+| CP6 Mức can thiệp / quyết định | Dùng AI so sánh No AI, Rule, Workflow và Agent cho bài toán thông báo học tập | Thấy có thể bắt đầu bằng bộ lọc/quy tắc và luồng tổng hợp có bước xác nhận, chưa cần Agent | AI đề xuất kết nối nhiều nền tảng nhưng chưa chứng minh được khả năng truy cập và độ chính xác với mọi nguồn | Đề xuất MVP giới hạn ở thông báo mẫu hoặc nguồn khả thi; AI chỉ trích xuất để người học xác nhận, không tự quyết deadline |
+| CP7 Reflection | Dùng AI hỗ trợ viết nháp phần Reflection | Gợi ý cách sắp xếp ý theo từng câu hỏi | Bản nháp đầu viết nhầm sang đề tài khác (Xanh SM) và có chi tiết không khớp dữ liệu (vd. "5–7 phút mỗi ngày" trong khi người được hỏi nói 5–7 phút cho lần kiểm tra gần nhất) | Đối chiếu lại với báo cáo nhóm và ghi chép phỏng vấn, sửa các chi tiết sai; giữ lại những ý đúng với trải nghiệm của tôi |
 
 ---
 
 ## 6. Reflection (CP7)
 
-Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
-
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+
+Khi nghe các bạn trình bày, em nhận ra mỗi người có một cách nhìn khác nhau về những bất tiện trong học tập và sinh hoạt. Nam đưa ra các vấn đề về theo dõi tiến độ nhóm, tổng hợp kiến thức từ nhiều tài liệu và tìm nguồn đáng tin; Hạnh đưa ra các vấn đề như xác minh ra vào Vinhomes giờ giới nghiêm hay biết căn tin còn bàn trống. Có vấn đề nghe qua tưởng rất cần một ứng dụng mới, nhưng khi bị hỏi "chi phí của giải pháp có cao hơn lợi ích không?" hoặc "nhóm chỉ làm vài giờ thì có cần hệ thống riêng không?", nhóm thấy một bảng phân công, lịch nhắc hay tính năng có sẵn đã giải quyết được phần lớn.
+
+Em cũng học được rằng không nên chỉ chọn vấn đề vì bản thân thấy nó phiền. Cần xác định ai gặp vấn đề, gặp trong hoàn cảnh nào, tần suất ra sao và hậu quả cụ thể là gì. Khi nghe các bạn phản biện card của em, em thấy các con số về thời gian giúp cuộc trao đổi rõ hơn, nhưng số liệu tự ước lượng vẫn cần được kiểm tra. Vì vậy, em cần phân biệt trải nghiệm của mình với kết luận có thể áp dụng cho cả lớp.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
 
+Theo em, nhóm có lúc solution-first khi bắt đầu nói về một hệ thống kết nối LMS, email, Zalo và Discord để gom tất cả thông báo về một nơi. Đây là hướng giải pháp dễ hình dung nên mọi người nhanh chóng bàn đến dashboard, chatbot và cách tích hợp. Tuy nhiên, nếu chưa hiểu rõ người học đang gặp khó khăn ở bước nào thì việc kết nối nhiều nền tảng có thể khiến phạm vi lớn hơn cần thiết.
+
+Nhóm nhận ra điều này khi làm cây OST: các ý như "xây ứng dụng AI tổng hợp thông báo", "tạo chatbot quản lý deadline" hay "xây dashboard" đều bị gạch vì là giải pháp, không phải nhu cầu. Khi quay lại quy trình hiện tại, nhóm thấy người học không chỉ mở nhiều ứng dụng mà còn phải lọc thông báo chính thức khỏi tin trao đổi, xác định nội dung cần hành động rồi tự ghi nhớ deadline.
+
+Cách xử lý là quay lại hỏi người dùng và xem xét các giải pháp đơn giản như bộ lọc email, lịch chung hoặc quy ước đăng thông báo. Nếu một quy tắc hoặc thay đổi thói quen đã giải quyết được vấn đề thì chưa chắc phải dùng AI. AI chỉ nên được cân nhắc ở phần nội dung viết tự do khó xử lý bằng quy tắc cố định.
+
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+
+Có. Với Problem Card #1, ban đầu em khá tập trung vào việc phải kiểm tra nhiều kênh và lo rằng mình có thể bỏ lỡ deadline. Khi được hỏi "Bạn đã từng bỏ lỡ deadline chưa?", em phải thừa nhận là chưa. Câu hỏi này khiến em nhận ra nếu viết vấn đề thành "sinh viên thường xuyên bỏ lỡ deadline" thì không đúng với trải nghiệm của mình và cũng chưa có đủ bằng chứng.
+
+Sau đó, em điều chỉnh cách mô tả pain point. Vấn đề đã xác nhận ở bản thân em là phải dành khoảng 30 phút mỗi ngày để xem nhiều kênh và hỏi bạn bè khoảng 4 lần mỗi tuần để xác nhận hạn nộp. Vì vậy, metric chính nên là thời gian kiểm tra thông báo và số lần phải hỏi lại, thay vì số deadline bị bỏ lỡ. Em cũng ghi rõ các con số này là tự ước lượng và cần ghi log để có baseline đáng tin cậy hơn.
+
+Khi nhờ AI đóng vai PM hoài nghi, em nhận thêm một phản biện: lớp có thể chỉ cần một bảng deadline ghim sẵn. Em bổ sung thông tin rằng lớp đã có kênh thông báo riêng nhưng ít được sử dụng, còn thông báo vẫn thường xuất hiện trong nhóm đông người. Dù vậy, em không kết luận giải pháp đơn giản chắc chắn thất bại mà giữ nó như phương án No AI để nhóm so sánh.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
 
+Điều làm em chú ý nhất là cả hai học viên ngoài nhóm mà em phỏng vấn đều kể về tình huống suýt bỏ lỡ do deadline bị thay đổi: một bạn không để ý giảng viên đổi hạn trên LMS, bạn còn lại không biết deadline đã được dời vì giảng viên chỉ báo qua Zalo nhóm mà LMS không có thông báo mới. Trước đó, em tập trung vào việc phải mở nhiều kênh và mất thời gian đọc thông báo. Kết quả này cho thấy điểm gãy thật có thể là thông tin thay đổi nằm ở kênh mà người học không kiểm tra đúng lúc. Tuy vậy, hai trường hợp chưa đủ để kết luận tất cả học viên đều thường xuyên gặp tình trạng này.
+
+Kết quả phỏng vấn cũng khiến em phải xem lại giả định ban đầu. Một bạn chỉ mất khoảng 5–7 phút cho lần kiểm tra gần nhất, thấp hơn nhiều so với khoảng 30 phút mỗi ngày em tự ước lượng, vì bạn ấy đã có thói quen ghim tin, ghi vào Google Keep và bật thông báo LMS về mail. Điều đó cho thấy trải nghiệm của em không đại diện cho tất cả.
+
+Qua research, em cũng thấy Gmail filter, Google Calendar hay Microsoft To Do đã hỗ trợ lọc email hoặc ghi nhớ lịch. Vì vậy, nhóm cần làm rõ khoảng trống còn lại thay vì nói rằng chưa có công cụ nào. Em nghĩ cần phỏng vấn thêm người dùng có thói quen khác nhau và ghi nhận thời gian thực tế trước khi đặt mục tiêu giảm thời gian.
+
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+
+Khó nhất với em là giới hạn vấn đề sao cho đủ cụ thể nhưng không làm sai những gì đã được kiểm chứng. Ban đầu, em muốn mô tả rằng sinh viên có thể bỏ lỡ deadline vì thông báo nằm rải rác ở LMS, email và nhóm chat. Nhưng khi được hỏi về trải nghiệm thực tế, em nhận ra bản thân chưa từng lỡ deadline. Nếu vẫn viết như vậy thì Problem Statement sẽ phóng đại mức độ nghiêm trọng.
+
+Em phải tách ba lớp thông tin: điều bản thân đã trải nghiệm, điều người được phỏng vấn chia sẻ và điều nhóm mới đang giả thuyết. Khoảng 30 phút mỗi ngày và 4 lần hỏi bạn bè mỗi tuần là số liệu tự ước lượng của em; hai trường hợp suýt bỏ lỡ vì deadline thay đổi là thông tin từ phỏng vấn; còn việc AI có thể nhận diện chính xác deadline vẫn chỉ là giả thuyết cần thử nghiệm.
+
+Một phần khó nữa là chọn metric. "Không bỏ lỡ thông báo" nghe là mục tiêu tốt nhưng khó đo nếu chưa có baseline. Em chuyển sang thời gian kiểm tra thông báo và số lần phải hỏi bạn bè, đặt mục tiêu 5 phút mỗi ngày và tối đa một lần hỏi mỗi tuần như target thử nghiệm, không phải kết quả đã đạt. Em hiểu rằng Problem Statement tốt cần mô tả đúng người dùng, đúng điểm nghẽn và có cách kiểm chứng.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
 
+Nếu làm lại, em sẽ ghi lại thời gian kiểm tra thông báo ngay từ đầu thay vì dựa vào trí nhớ và ước lượng. Em cũng sẽ phỏng vấn nhiều người hơn, cả những bạn chỉ dùng một hai nền tảng và những bạn theo dõi nhiều group chat, để nhóm không chọn giải pháp chỉ phù hợp với một kiểu người dùng.
+
+Em cũng muốn hỏi sâu hơn về từng tình huống: thông báo nào bị chìm, ai gửi, deadline có thay đổi không, người học phát hiện bằng cách nào. Những câu hỏi đó giúp phân biệt ba vấn đề liên quan nhưng không giống nhau: tốn thời gian kiểm tra, không biết thông báo nào quan trọng, và bỏ sót thay đổi deadline.
+
+Với nhóm, em sẽ phản biện mạnh hơn về tính khả thi của việc kết nối các nền tảng. Không nên mặc định lấy được dữ liệu từ mọi hệ thống như Phoenix hay Zalo. Em cũng muốn nhóm so sánh MVP với Gmail filter, Google Calendar hoặc một bảng deadline chung; nếu cách đơn giản đã đủ tốt thì phải giải thích rõ giá trị tăng thêm của AI. Ngoài ra, sau phỏng vấn em nghĩ Problem Statement v1 nên đưa tiêu chí "bắt được thông báo đổi hạn" lên ưu tiên cao hơn.
+
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+
+Bài toán nhóm chọn là học viên phải kiểm tra nhiều kênh như LMS, email, Discord và Zalo để tìm thông báo học tập, nên mất thời gian và có thể không nhận ra kịp những thay đổi deadline. Quy trình hiện tại gồm mở từng kênh, đọc và lọc thông báo, đối chiếu rồi tự ghi nhớ hoặc nhập deadline vào lịch; bước nghẽn là lọc thông báo quan trọng giữa rất nhiều tin trao đổi. Nhóm đo bằng thời gian kiểm tra mỗi ngày, tỷ lệ phát hiện thông báo quan trọng và độ chính xác khi trích xuất deadline. Boundary là AI không được tự tạo hay sửa deadline, không tự gửi tin hay xác nhận thay người dùng, và mọi deadline phải kèm thông báo gốc để người học kiểm tra trước khi tạo nhắc việc. Nhóm chọn mức Workflow: Rule lọc trước, AI chỉ đọc nội dung viết tự do để trích xuất, con người xác nhận; không dùng Agent vì các bước đã cố định. Quyết định hiện tại là Not Yet, vì bằng chứng mới từ vài người và chưa thử MVP; nhóm sẽ phỏng vấn thêm, thử trên bộ thông báo mẫu và so sánh với cách làm thủ công trước khi quyết định có mở rộng hay không.
 
 ---
 
@@ -196,3 +229,4 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 - [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md)
 - The Mom Test — Rob Fitzpatrick
+- Báo cáo nhóm C2: [report/team/group_report.md](../team/group_report.md)
