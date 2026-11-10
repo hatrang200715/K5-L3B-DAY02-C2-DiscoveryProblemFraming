@@ -5,7 +5,7 @@
 ## Thông tin nhóm
 
 - Tên nhóm: C2
-- Candidate problem nhóm chọn (1 câu):
+- Candidate problem nhóm chọn (1 câu): Khi cần theo dõi deadline, tôi muốn tổng hợp thông báo từ nhiều kênh để tiết kiệm thời gian.
 - Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 
 ## Thành viên
