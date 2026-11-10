@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | Thành viên 2 | Nguyễn Gia Nam, Thành viên 3 | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | Nguyễn Gia Nam | Thành viên 2 | Assumption Map, Interview Snapshot, tổng hợp insight |
+| CP3 — Hội tụ nhóm | Phùng Thị Nhài | Nguyễn Gia Nam, Thành viên 3 | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Nguyễn Gia Nam | Phùng Thị Nhài | Assumption Map, Interview Snapshot, tổng hợp insight |
 | CP4 — Research | Nguyễn Gia Nam | Thành viên 3 | Bảng research giải pháp hiện có kèm link |
 | CP5 — Quy trình trước/sau | Thành viên 3 | Nguyễn Gia Nam | Quy trình As-Is/To-Be, bảng Before/After |
-| CP5 — Problem Statement v0 | Thành viên 2 | Thành viên 3 | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Gia Nam | Thành viên 2, Thành viên 3 | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | Thành viên 3 | Nguyễn Gia Nam, Thành viên 2 | Bốn rủi ro + quyết định Not Yet |
+| CP5 — Problem Statement v0 | Phùng Thị Nhài | Thành viên 3 | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Gia Nam | Phùng Thị Nhài, Thành viên 3 | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Thành viên 3 | Nguyễn Gia Nam, Phùng Thị Nhài | Bốn rủi ro + quyết định Not Yet |
 
 ## Cá nhân
 
@@ -83,4 +83,4 @@ Qua buổi workshop, mình thấy một ý tưởng có thể nghe rất hay nh�
 
 **Điều mình học được từ phần nhóm:**
 
-- ⟨CẦN ĐIỀN — tự viết⟩
+Sau buổi workshop, mình hiểu rằng để xây dựng một giải pháp AI hiệu quả, điều quan trọng không phải là sử dụng công nghệ phức tạp mà là giải quyết được vấn đề thực tế. Qua quá trình làm việc nhóm và nhận góp ý, mình nhận ra cần nhìn nhận bài toán từ góc độ của cả tài xế và điều phối viên để hiểu rõ những khó khăn trong quá trình xử lý khi xe gặp tình trạng pin yếu. Đối với đề tài Xanh SM, mình nghĩ nhóm nên tập trung trước vào khả năng đưa ra gợi ý trạm sạc phù hợp và xác định những trường hợp cần điều phối viên can thiệp. Sau khi thử nghiệm và đánh giá kết quả, nhóm mới nên cân nhắc mở rộng thêm các chức năng khác. Điều này giúp tránh phát triển quá nhiều tính năng không cần thiết và đảm bảo giải pháp thực sự mang lại giá trị cho người sử dụng.
