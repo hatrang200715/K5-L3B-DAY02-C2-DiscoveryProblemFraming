@@ -7,7 +7,7 @@
 
 - Tên nhóm: C2
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Khi cần theo dõi deadline, tôi muốn tổng hợp thông báo từ nhiều kênh để tiết kiệm thời gian.
+- Candidate problem được chọn (1 câu): Học viên phải theo dõi thông báo học tập từ nhiều nền tảng (LMS/Phoenix, email, Discord, Zalo) mất 15–30 phút/ngày để dò và lọc thông báo cần hành động, và có nguy cơ bỏ sót deadline vì thông báo quan trọng bị lẫn giữa tin trao đổi thông thường.
 - Quyết định cuối: Not Yet
 
 ---
@@ -19,7 +19,7 @@
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
 | 1 | Nhài Phùng | Khi cần theo dõi deadline, tôi muốn tổng hợp thông báo từ nhiều kênh để tiết kiệm thời gian. | Sinh viên| Thông báo phân tán nhiều nơi. |Câu hỏi của Nguyễn Gia Nam: Bạn đã từng bỏ lỡ deadline chưa? |
-| 2 |Nhài Phùng  | Khi làm báo cáo nhóm, tôi muốn tự động tổng hợp nội dung để tiết kiệm thời gian. |Thu thập và chỉnh sửa báo cáo thủ công. |Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?  |
+| 2 |Nhài Phùng  | Khi làm báo cáo nhóm, tôi muốn gom phần của mọi người vào một file thống nhất định dạng để nộp đúng hạn. | Người tổng hợp báo cáo nhóm |Thu thập và chỉnh sửa báo cáo thủ công. |Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?  |
 | 3 | Nhài Phùng |Khi cần tìm lại thông tin trong group chat, tôi muốn tìm nhanh nội dung cũ. | Sinh viên| Tin nhắn quá nhiều, khó tìm kiếm. | Tính năng tìm kiếm và ghim tin nhắn có đủ chưa? |
 | 4 |Nguyễn Gia Nam | Khi quản lý dự án nhóm, tôi muốn nắm tiến độ và điều chỉnh kế hoạch kịp thời mà không phải liên tục hỏi từng thành viên. |Trưởng nhóm dự án, nhóm sinh viên  |Thành viên ít chủ động cập nhật; trưởng nhóm phải hỏi thủ công và khó đánh giá tiến độ tổng thể.  |Câu hỏi của Nhài Phùng :Nhóm làm vài giờ có cần hệ thống này không? AI có cần thiết hơn checklist hoặc lịch nhắc?   |
 | 5 | Nguyễn Gia Nam | Khi học từ nhiều tài liệu khác nhau, tôi muốn tổng hợp kiến thức thành ghi chú có cấu trúc thống nhất để dễ hiểu và ôn tập. | Sinh viên, người tự học |Tài liệu có cấu trúc khác nhau, khó đối chiếu và kết nối nội dung thành ghi chú nhất quán.  |Câu hỏi của nhóm trưởng: AI tổng hợp có làm giảm khả năng tự học không? Dùng mẫu ghi chú cố định có đủ không?  |
@@ -70,7 +70,6 @@ OUTCOME: Giảm thời gian kiểm tra thông báo học tập
 - "Tạo chatbot hoặc AI Agent tự động quản lý deadline" → Đây là phương án triển khai, không phải opportunity.
 - "Tích hợp Google Calendar để tự động nhắc deadline" → Đây là giải pháp cho nhu cầu theo dõi thời hạn.
 - "Xây dựng dashboard hiển thị tất cả thông báo" → Đây là một thiết kế giao diện, không phải vấn đề cần giải quyết.
--
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -112,7 +111,7 @@ Với ý tưởng quản lý công việc nhóm, câu hỏi về việc một nh
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Học viên sử dụng từ 2 nền tảng trở lên gặp khó khăn khi theo dõi thông báo và có nguy cơ bỏ sót deadline quan trọng. | Value | 5 | 3 | Có |
+| 1 | Học viên sử dụng từ 2 nền tảng trở lên gặp khó khăn khi theo dõi thông báo và có nguy cơ bỏ sót deadline quan trọng. | Value | 5 | 4 (3 phỏng vấn đều có tình huống suýt lỡ/hiểu sai) | Có |
 | 2 | Việc tổng hợp thông báo về một nơi sẽ giúp học viên giảm thời gian kiểm tra và tìm kiếm thông tin. | Value | 5 | 2 | Có |
 | 3 | Học viên có thể sử dụng giao diện tổng hợp, kiểm tra và xác nhận deadline mà không phải thao tác quá nhiều. | Usability | 4 | 1 | Có |
 | 4 | AI có thể phân loại thông báo quan trọng và trích xuất deadline từ nội dung tiếng Việt, tiếng Anh với độ chính xác đủ để hỗ trợ người dùng. | Feasibility | 5 | 1 | Có |
@@ -125,7 +124,9 @@ Nhóm tập trung kiểm chứng bước đầu giả định số 1: học viê
 
 Qua phỏng vấn, một học viên cho biết phải kiểm tra thông tin từ Discord, Gmail, Outlook, Phoenix và Zalo, mất khoảng 15–20 phút mỗi ngày, đôi khi lên tới 30 phút. Người này cũng từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h và chỉ kịp biết nhờ bạn bè nhắc.
 
-Kết quả này bước đầu cho thấy vấn đề có tồn tại, nhưng mới dựa trên một người được phỏng vấn nên chưa đủ để kết luận cho toàn bộ học viên. Các giả định về khả năng giảm thời gian, độ chính xác của AI và mức độ sẵn sàng sử dụng vẫn cần thử nghiệm MVP và phỏng vấn thêm.
+Hai phỏng vấn bổ sung (02, 03) cũng ghi nhận tình huống suýt lỡ vì deadline bị đổi và phải hỏi lại bạn vì tin nhắn bị trôi; tuy nhiên thời gian kiểm tra dao động 5–20 phút.
+
+Kết quả này bước đầu cho thấy vấn đề có tồn tại, nhưng mới dựa trên 3 người được phỏng vấn nên chưa đủ để kết luận cho toàn bộ học viên. Các giả định về khả năng giảm thời gian, độ chính xác của AI và mức độ sẵn sàng sử dụng vẫn cần thử nghiệm MVP và phỏng vấn thêm.
 
 ### 3.2. Kiểm chứng
 
@@ -142,15 +143,44 @@ Kết quả này bước đầu cho thấy vấn đề có tồn tại, nhưng m
 | Mất bao lâu, bao lần? | Ước tính khoảng 15–20 phút mỗi ngày để kiểm tra các nguồn thông báo, có lúc khoảng 30 phút. Chưa ghi nhận chính xác số lần bỏ sót deadline. |
 | Insight / opportunity rút ra | Vấn đề không chỉ nằm ở số lượng thông báo mà còn ở việc thông tin quan trọng bị phân tán. Có cơ hội xây dựng công cụ tập trung thông báo, phát hiện deadline và hỗ trợ người dùng xác nhận trước khi tạo nhắc nhở. |
 
+**Interview snapshot 02** — người phỏng vấn: Phùng Thị Nhài
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên/sinh viên ngoài nhóm C2, theo dõi deadline qua Zalo, LMS, Discord và email. Hỏi qua tin nhắn Zalo ngày 10/11/2026 |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Mỗi môn dùng một kênh khác nhau nên khá bất tiện." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Tối hôm trước phải vào kiểm tra lại vì không nhớ tuần này có những bài nào cần nộp. Tuần này phải hỏi bạn cùng lớp về deadline bài tập vì không tìm thấy thông báo cũ trên Zalo và không chắc hạn nộp chính xác. Từng có lần giảng viên đổi deadline trên LMS nhưng không để ý, đến khi bạn nhắc mới biết và phải làm bài gấp. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Kiểm tra Zalo trước, sau đó LMS, Discord, email. Ghi deadline vào điện thoại và ghim tin nhắn quan trọng — "nhưng vẫn dễ sót vì phải tự cập nhật khi có thay đổi". |
+| Mất bao lâu, bao lần? | Khoảng 15–20 phút mỗi lần kiểm tra, "vì phải mở từng ứng dụng và tìm lại các thông báo cũ bị trôi". |
+| Insight / opportunity rút ra | Điểm gãy là **thông báo đổi hạn** và **thông báo cũ bị trôi**; cách ghi chú/ghim hiện tại không tự cập nhật khi hạn thay đổi. |
+
+**Interview snapshot 03** — người phỏng vấn: Phùng Thị Nhài
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên/sinh viên ngoài nhóm C2, đang làm đồ án nhóm, theo dõi qua LMS, Gmail và Zalo. Hỏi qua tin nhắn Zalo ngày 10/11/2026 |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Tuần trước giảng viên báo dời deadline trên LMS nhưng chỉ thông báo qua tin nhắn Zalo nhóm chứ không tạo notification mới." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Hôm qua phải nhắn hỏi lại bạn chung nhóm đồ án xem task nhỏ chốt 23h59 tối qua hay tối nay, "vì tin nhắn trôi quá tìm lại không thấy". Tuần trước không để ý tin ghim về việc dời deadline nên sát giờ nộp mới biết được lùi thêm 2 ngày, "làm vắt chân lên cổ chạy từ chiều". |
+| Hiện đang xử lý bằng cách nào (workaround)? | Thứ tự: LMS (bài tập chính thức) → Gmail (notification mới) → Zalo (nhóm đồ án/lớp, xem tin ghim). Ghim tin quan trọng trong Zalo, note ngay vào Google Keep khi có task mới, bật hết thông báo LMS về mail điện thoại. |
+| Mất bao lâu, bao lần? | Khoảng 5–7 phút cho lần kiểm tra gần nhất (tối qua, ~10h đêm). |
+| Insight / opportunity rút ra | Người này **đã có thói quen tốt và tốn ít thời gian** (tín hiệu phản bác về pain "tốn thời gian"), nhưng **vẫn bị hụt khi deadline đổi qua kênh khác** với kênh chính thức (LMS đổi nhưng chỉ báo trên Zalo). |
+
 **Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn học viên | 1 người được ghi nhận trong dữ liệu hiện có | Phải kiểm tra nhiều nền tảng, mất khoảng 15–20 phút/ngày và từng suýt bỏ lỡ email Outlook quan trọng. | Chưa ghi nhận phản bác trực tiếp. Người được hỏi vẫn kịp xử lý nhờ bạn bè nhắc, nên chưa chứng minh rằng cần một ứng dụng mới thay vì cải thiện cách nhắc hiện tại. |
+| Người đề xuất candidate (Nhài Phùng, tự ghi nhận — không tính là phỏng vấn) | 1 | Mất ~30 phút/ngày (LMS 1', email 5', group chat 15', ghi lịch/hỏi bạn ~9'); hỏi bạn bè xác nhận hạn ~4 lần/tuần; lớp ~85 người dùng chung các kênh; luôn lo bỏ sót. | Chưa từng lỡ deadline nào. Lớp **đã có kênh thông báo riêng** nhưng ít được dùng, đa số thông báo vẫn đăng ở nhóm đông người → vấn đề một phần nằm ở thói quen người đăng, không chỉ ở công cụ. Số phút là ước lượng, chưa đo log. |
+| Phỏng vấn 02 (Zalo, 10/11/2026) | 1 | 4 kênh (Zalo, LMS, Discord, email), 15–20 phút/lần; tuần này phải hỏi bạn vì không tìm thấy thông báo cũ trên Zalo; từng không biết giảng viên đổi deadline trên LMS, phải làm gấp. | Đã có workaround (ghi điện thoại, ghim tin); chưa thực sự lỡ deadline. |
+| Phỏng vấn 03 (Zalo, 10/11/2026) | 1 | Hôm qua phải hỏi bạn vì tin nhắn trôi; tuần trước suýt hiểu sai vì giảng viên dời deadline chỉ báo trên Zalo, không có notification LMS. | **Chỉ mất 5–7 phút** nhờ thói quen tốt (ghim Zalo, Google Keep, bật thông báo LMS về mail) → pain "tốn thời gian" không phổ biến với mọi người. |
+| Phỏng vấn học viên (01) | 1 người được ghi nhận trong dữ liệu hiện có | Phải kiểm tra nhiều nền tảng, mất khoảng 15–20 phút/ngày và từng suýt bỏ lỡ email Outlook quan trọng. | Chưa ghi nhận phản bác trực tiếp. Người được hỏi vẫn kịp xử lý nhờ bạn bè nhắc, nên chưa chứng minh rằng cần một ứng dụng mới thay vì cải thiện cách nhắc hiện tại. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
 Ban đầu, nhóm tiếp cận vấn đề theo hướng xây dựng công cụ tổng hợp thông báo từ nhiều nền tảng. Tuy nhiên, sau khi xem xét kết quả phỏng vấn, nhóm nhận thấy không nên chỉ tập trung vào việc gom tất cả thông báo về một nơi.
+
+**Sau 2 phỏng vấn bổ sung (02, 03):** cả 2 người đều có tình huống **deadline bị đổi** mà không nhận ra kịp (đổi trên LMS nhưng không để ý; dời hạn chỉ báo qua Zalo, không có notification LMS), và cả 2 đều phải **hỏi lại bạn** trong tuần vì tin nhắn cũ bị trôi. Ngược lại, thời gian kiểm tra dao động lớn (5–7 phút đến 15–20 phút) — người có thói quen tốt không tốn nhiều thời gian. Nhóm vì vậy xác định **pain cốt lõi là bỏ lỡ thay đổi deadline và thông báo bị trôi giữa các kênh**, còn thời gian kiểm tra là pain phụ, không đồng đều. Tiêu chí "bắt được thông báo đổi hạn" cần được ưu tiên khi đánh giá AI.
+
+Từ câu phản biện "Bạn đã từng bỏ lỡ deadline chưa?" ở CP3: người đề xuất chưa lỡ deadline nào, nên nhóm xác định pain chính là **mất thời gian dò tin, phụ thuộc bạn bè nhắc và luôn lo bỏ sót**, không phải "đã lỡ hạn". Metric vì vậy tập trung vào thời gian kiểm tra và khả năng không bỏ sót, thay vì số deadline bị lỡ.
 
 Nhóm điều chỉnh cách mô tả vấn đề theo hướng cụ thể hơn:
 
@@ -171,6 +201,7 @@ Học viên phải theo dõi thông báo học tập từ nhiều nền tảng n
 | **Google Calendar + Google Tasks** | [Google Calendar Help](https://support.google.com/calendar/answer/9901136) | Ghi nhận deadline, lập lịch học, tạo nhiệm vụ và theo dõi thời hạn hoàn thành. | Giao diện lịch trực quan; quản lý công việc theo ngày; hỗ trợ ngày đến hạn và nhắc việc. | Người học vẫn có thể phải tự đọc thông báo và nhập deadline thủ công. Không mặc định tổng hợp thông báo từ Discord, Phoenix, Outlook và Zalo. | Cần có giao diện lịch và danh sách deadline tập trung, đồng thời giảm thao tác nhập liệu thủ công. |
 | **Microsoft Outlook + Microsoft To Do** | [Microsoft Support](https://support.microsoft.com/en-us/todo/using-microsoft-to-do-with-flagged-email-from-outlook) | Tiếp nhận email, đánh dấu email cần xử lý, chuyển email được gắn cờ thành nhiệm vụ và theo dõi công việc. | Tích hợp email và quản lý nhiệm vụ; phù hợp với thông báo học tập được gửi qua Outlook. | Phụ thuộc vào loại tài khoản và thao tác đánh dấu email; không tự giải quyết việc theo dõi thông báo phân tán trên Phoenix, Discord và Zalo. | Cần hỗ trợ phát hiện những thông báo yêu cầu hành động, đặc biệt là email xác nhận thông tin và thông báo có hạn chót. |
 | **Zapier — Workflow Automation** | [Zapier Help Center](https://help.zapier.com/hc/en-us/articles/8495982223629-How-to-get-started-with-Google-Calendar-on-Zapier) | Kết nối các ứng dụng được hỗ trợ, tự động chuyển dữ liệu và tạo sự kiện lịch khi có điều kiện kích hoạt. | Giảm thao tác lặp lại; hỗ trợ xây dựng workflow tự động giữa các dịch vụ có tích hợp. | Cần cấu hình kết nối, quyền truy cập và điều kiện kích hoạt. Khả năng lấy dữ liệu từ Phoenix, Zalo và các kênh Discord cụ thể chưa được xác minh. | Nên ưu tiên kiểm tra khả năng tự động hóa bằng workflow và rule trước khi quyết định sử dụng AI. |
+| **Bộ lọc Gmail (filter)** | [Gmail Help](https://support.google.com/mail/answer/6579) | Lọc email theo tiêu chí tìm kiếm (người gửi, từ khóa), tự gắn nhãn/gắn sao. | Miễn phí, có sẵn, là Rule thuần — giải được phần email mà không cần AI. | Chỉ áp dụng cho Gmail; không hiểu nội dung (vd. tin đổi hạn); không đọc Discord, Zalo, Phoenix. | Bước lọc email nên dùng **Rule**, AI chỉ cần cho phần tin nhắn viết tự do. |
 | **Notion + Notion Calendar** | [Notion Help Center](https://www.notion.com/help/use-notion-calendar-with-notion) | Tổng hợp công việc, quản lý trạng thái, ngày đến hạn và theo dõi tiến độ trên lịch. | Cho phép tổ chức thông tin linh hoạt; có thể quản lý nhiều nhiệm vụ và deadline trong một không gian làm việc. | Cần có dữ liệu đầu vào phù hợp; chưa xác minh khả năng tự động thu thập toàn bộ thông báo học tập từ các nền tảng mà nhóm sử dụng. | Có thể tham khảo cách thiết kế dashboard tập trung, hiển thị nguồn thông báo, nội dung, deadline, mức độ ưu tiên và trạng thái hoàn thành. |
 
 ---
@@ -267,7 +298,9 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 2. **Khó xác định thông tin ưu tiên:** Thông báo quan trọng có thể bị lẫn với tin nhắn trao đổi thông thường, khiến người học không phát hiện kịp yêu cầu cần xử lý.
 
-*Mục tiêu:** Xây dựng quy trình hỗ trợ sinh viên tổng hợp thông báo học tập từ nhiều nền tảng, tự động nhận diện những thông báo cần hành động, trích xuất deadline và hiển thị tại một nơi. Giảm thời gian kiểm tra thủ công và nguy cơ bỏ sót thông tin quan trọng.
+2. **Khó xác định thông tin ưu tiên:** Thông báo quan trọng có thể bị lẫn với tin nhắn trao đổi thông thường, khiến người học không phát hiện kịp yêu cầu cần xử lý.
+
+**Mục tiêu:** Xây dựng quy trình hỗ trợ sinh viên tổng hợp thông báo học tập từ nhiều nền tảng, tự động nhận diện những thông báo cần hành động, trích xuất deadline và hiển thị tại một nơi. Giảm thời gian kiểm tra thủ công và nguy cơ bỏ sót thông tin quan trọng.
 
 **Phạm vi đề xuất:** Discord, Gmail, Outlook, Phoenix và Zalo. Trong MVP, chỉ xử lý các nguồn có thể truy cập hợp lệ hoặc dữ liệu mẫu do người dùng cung cấp; chưa giả định hệ thống có quyền kết nối tự động với toàn bộ nền tảng.
 
@@ -547,9 +580,6 @@ Bài toán hiện tại chưa yêu cầu AI tự lập kế hoạch hoặc tự 
 
 ### 6.3. AI Canvas rút gọn
 
-
-### 6.3. AI Canvas rút gọn
-
 | Thành phần | Nội dung |
 |---|---|
 | **Prediction** — AI dự đoán / tạo ra gì? | AI phân tích nội dung thông báo học tập để: (1) phân loại thông báo có yêu cầu hành động hay không; (2) tóm tắt nội dung chính; (3) trích xuất công việc cần thực hiện và deadline nếu có; (4) đề xuất mức độ ưu tiên; (5) đánh dấu thông tin thiếu hoặc mơ hồ cần xác minh. Kết quả phải kèm nội dung nguồn để người dùng đối chiếu, không tự tạo deadline khi không có đủ căn cứ. |
@@ -633,7 +663,7 @@ Bài toán hiện tại chưa yêu cầu AI tự lập kế hoạch hoặc tự 
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **TB** | Phỏng vấn bước đầu ghi nhận học viên mất khoảng 15–20 phút/ngày để kiểm tra nhiều nền tảng và từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h. Điều này cho thấy vấn đề có tồn tại. Tuy nhiên, mới có bằng chứng từ một trường hợp, chưa đủ khẳng định nhiều học viên gặp vấn đề tương tự hoặc sẵn sàng sử dụng sản phẩm. |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **TB** | Phỏng vấn bước đầu ghi nhận học viên mất khoảng 15–20 phút/ngày để kiểm tra nhiều nền tảng và từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h. Điều này cho thấy vấn đề có tồn tại. Hai phỏng vấn bổ sung (02, 03) đều có tình huống suýt lỡ vì deadline bị đổi và phải hỏi lại bạn vì tin nhắn trôi. Tuy nhiên mới có 3 người, thời gian kiểm tra dao động 5–20 phút, và chưa kiểm chứng việc họ sẵn sàng dùng công cụ mới thay cho thói quen hiện tại (ghim tin, Google Keep, bật thông báo). |
 | **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **TB** | Nhóm đề xuất giao diện cho phép xem thông báo gốc, kết quả AI phân loại, deadline được trích xuất và nút xác nhận/chỉnh sửa. Quy trình tương đối đơn giản nhưng chưa được thử nghiệm với người dùng thực tế. Cần kiểm tra xem học viên có hiểu kết quả AI và sửa được deadline sai hay không. |
 | **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **TB** | MVP có thể xây dựng bằng Python, mô hình AI có sẵn và bộ thông báo mẫu do nhóm chuẩn bị. Không cần tích hợp API của tất cả nền tảng trong giai đoạn đầu. Tuy nhiên, nhóm chưa có bộ dữ liệu kiểm thử được gán nhãn đầy đủ và chưa chứng minh AI đạt mục tiêu Recall ≥ 95%, Precision ≥ 90% hay độ chính xác trích xuất deadline ≥ 90%. |
 | **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **TB** | MVP sử dụng dữ liệu mẫu hoặc nội dung do người dùng chủ động cung cấp nên có thể hạn chế chi phí và rủi ro quyền truy cập. Tuy nhiên, thông báo học tập có thể chứa dữ liệu cá nhân; nhóm cần ẩn thông tin nhạy cảm, kiểm soát việc lưu trữ và không tự động truy cập tài khoản người dùng. Trong giai đoạn lab, nhóm phát triển chịu trách nhiệm vận hành và kiểm thử. Chi phí duy trì lâu dài chưa được đánh giá. |
@@ -725,5 +755,6 @@ Sau 2 vòng thử nghiệm MVP với cùng bộ tiêu chí đánh giá, nếu Wo
 - Microsoft. Microsoft Outlook. https://outlook.office.com/
 - Notion. Notion Calendar. https://www.notion.com/product/calendar
 - Zapier. Automation Platform. https://zapier.com/
+- Google. Gmail Help — Create rules to filter your emails. https://support.google.com/mail/answer/6579
 - Nhóm C2. Ghi chép phỏng vấn học viên về việc theo dõi thông báo và deadline từ nhiều nền tảng (tài liệu nội bộ, CP4).
 - Nhóm C2. Báo cáo cá nhân và kết quả thảo luận nhóm tại workshop Discovery & Problem Framing (CP3–CP6).
