@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 |Nguyễn Gia Nam |2A202603761 |phỏng vấn, phụ trách research |Basrot |
-| 2 | Phùng Thị Nhài | 2A202603725 | Đề xuất candidate được chọn (Problem Card #1), cung cấp dữ liệu baseline | ⟨GitHub⟩ |
+| 2 | Phùng Thị Nhài | 2A202603725 | Đề xuất candidate được chọn (Problem Card #1), cung cấp dữ liệu baseline, phỏng vấn 2 học viên (snapshot 02, 03) | nhaipt342k4 |
 | 3 | | | | |
 | 4 | | | | |
 
@@ -73,11 +73,12 @@ Qua buổi workshop, mình thấy một ý tưởng có thể nghe rất hay nh�
 - Pitch 3 Problem Card (deadline nhiều kênh, gom báo cáo nhóm, tìm lại thông tin trong group chat); Card #1 được nhóm chọn.
 - Cung cấp số liệu tự ghi nhận: ~30 phút/ngày (LMS 1', email 5', group chat 15', ghi lịch/hỏi bạn ~9'), hỏi bạn bè ~4 lần/tuần, lớp ~85 người.
 - Chỉ ra bottleneck thật: thông báo của lead bị lẫn giữa tin hỏi đáp; và tín hiệu phản bác: lớp đã có kênh thông báo riêng nhưng ít được dùng.
+- Phỏng vấn 2 học viên ngoài nhóm qua Zalo (snapshot 02, 03 trong mục 3.2), phát hiện pain cốt lõi là bỏ lỡ thay đổi deadline.
 - Phản biện ý tưởng quản lý tiến độ nhóm của Nam: "Nhóm làm vài giờ có cần hệ thống này không? AI có cần thiết hơn checklist hoặc lịch nhắc?"
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
-- `report/team/group_report.md`: mục 2.1 (pitch #1–3, câu hỏi phản biện cho #4), mục 3.2 (dòng "Người đề xuất candidate").
+- `report/team/group_report.md`: mục 2.1 (pitch #1–3, câu hỏi phản biện cho #4), mục 3.2 (dòng "Người đề xuất candidate", Interview snapshot 02 và 03).
 - `report/individual/2A202603725_PhungThiNhai.md`: mục 2–3 (scan, Problem Card #1 và phản biện).
 
 **Điều mình học được từ phần nhóm:**

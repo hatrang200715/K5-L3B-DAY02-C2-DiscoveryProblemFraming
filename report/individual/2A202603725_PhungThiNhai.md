@@ -151,7 +151,7 @@ Prompt: "Đóng vai PM hoài nghi, chỉ ra lỗ hổng trong Problem Card #1, �
 | Nhận phản biện | Câu hỏi tôi nhận được: "Bạn đã từng bỏ lỡ deadline chưa?" (Card #1); "Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?" (Card #2); "Tính năng tìm kiếm và ghim tin nhắn có đủ chưa?" (Card #3) | Tôi đã sửa gì: thừa nhận chưa lỡ deadline nào → đổi pain thành mất thời gian + phụ thuộc bạn bè, đổi metric sang phút/ngày và số lần hỏi bạn |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | Đề xuất candidate #1, cung cấp số liệu baseline | Nhóm thống nhất chọn chủ đề của tôi |
-| Kiểm chứng / research | Cung cấp số liệu tự ghi nhận và tín hiệu phản bác (lớp đã có kênh thông báo riêng nhưng ít dùng); thêm bộ lọc Gmail vào bảng research | Mục 3.2 và 3.3 báo cáo nhóm |
+| Kiểm chứng / research | Phỏng vấn 2 học viên ngoài nhóm qua Zalo (snapshot 02, 03); cung cấp số liệu tự ghi nhận và tín hiệu phản bác (lớp đã có kênh thông báo riêng nhưng ít dùng); thêm bộ lọc Gmail vào bảng research | Cả 2 người đều suýt lỡ vì deadline bị đổi → nhóm xác định pain cốt lõi là bỏ lỡ thay đổi deadline; 1 người chỉ mất 5–7 phút → tín hiệu phản bác về pain "tốn thời gian" |
 | Quy trình nhóm | Cung cấp quy trình hiện tại 4 bước kèm số phút từ Card #1 | Bổ sung dữ liệu cho mục 3.2 báo cáo nhóm |
 | Problem Statement | Cung cấp Actor, Bottleneck, Impact từ Card #1 | Góp phần xác định pain là mất thời gian + lo bỏ sót, không phải đã lỡ hạn |
 | Mức can thiệp AI | | |
