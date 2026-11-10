@@ -25,13 +25,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Thành viên 2 | Nguyễn Gia Nam, Thành viên 3 | Cluster, cây OST, bảng chấm điểm |
+| CP4 — Kiểm chứng | Nguyễn Gia Nam | Thành viên 2 | Assumption Map, Interview Snapshot, tổng hợp insight |
+| CP4 — Research | Nguyễn Gia Nam | Thành viên 3 | Bảng research giải pháp hiện có kèm link |
+| CP5 — Quy trình trước/sau | Thành viên 3 | Nguyễn Gia Nam | Quy trình As-Is/To-Be, bảng Before/After |
+| CP5 — Problem Statement v0 | Thành viên 2 | Thành viên 3 | Problem Statement v0 |
+| CP6 — Mức can thiệp + Problem Statement v1 | Nguyễn Gia Nam | Thành viên 2, Thành viên 3 | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Thành viên 3 | Nguyễn Gia Nam, Thành viên 2 | Bốn rủi ro + quyết định Not Yet |
 
 ## Cá nhân
 
