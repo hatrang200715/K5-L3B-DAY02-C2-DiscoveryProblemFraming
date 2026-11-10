@@ -40,7 +40,7 @@
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
-Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
+ốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
 OUTCOME: Giảm thời gian kiểm tra thông báo học tập
@@ -298,7 +298,7 @@ Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
 
 2. **Khó xác định thông tin ưu tiên:** Thông báo quan trọng có thể bị lẫn với tin nhắn trao đổi thông thường, khiến người học không phát hiện kịp yêu cầu cần xử lý.
 
-### 4.2. Quy trình tương lai
+2. **Khó xác định thông tin ưu tiên:** Thông báo quan trọng có thể bị lẫn với tin nhắn trao đổi thông thường, khiến người học không phát hiện kịp yêu cầu cần xử lý.
 
 **Mục tiêu:** Xây dựng quy trình hỗ trợ sinh viên tổng hợp thông báo học tập từ nhiều nền tảng, tự động nhận diện những thông báo cần hành động, trích xuất deadline và hiển thị tại một nơi. Giảm thời gian kiểm tra thủ công và nguy cơ bỏ sót thông tin quan trọng.
 
