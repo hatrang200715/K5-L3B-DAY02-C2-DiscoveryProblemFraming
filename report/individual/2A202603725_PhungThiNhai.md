@@ -147,13 +147,13 @@ Prompt: "Đóng vai PM hoài nghi, chỉ ra lỗ hổng trong Problem Card #1, �
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
 | Pitch Problem Card | Pitch Card #1 (deadline rải rác nhiều kênh) kèm câu hỏi "chỉ cần ghim bảng deadline là xong?" | Card #1 được nhóm chọn làm candidate |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt cho ý tưởng quản lý tiến độ nhóm của Nam: "Nhóm làm vài giờ có cần hệ thống này không? AI có cần thiết hơn checklist hoặc lịch nhắc?" | Giúp nhóm thấy dự án ngắn chỉ cần bảng phân công + lịch nhắc; ý tưởng này bị loại khỏi shortlist |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Bạn đã từng bỏ lỡ deadline chưa?" (Card #1); "Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?" (Card #2); "Tính năng tìm kiếm và ghim tin nhắn có đủ chưa?" (Card #3) | Tôi đã sửa gì: thừa nhận chưa lỡ deadline nào → đổi pain thành mất thời gian + phụ thuộc bạn bè, đổi metric sang phút/ngày và số lần hỏi bạn |
 | Gom cluster / cây OST | | |
 | Chọn candidate problem | Đề xuất candidate #1, cung cấp số liệu baseline | Nhóm thống nhất chọn chủ đề của tôi |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | Cung cấp quy trình hiện tại 4 bước kèm số phút | Dùng làm mục 4.1 báo cáo nhóm |
-| Problem Statement | Cung cấp Actor, Bottleneck, Impact, Metric từ Card #1 | Dùng trong Problem Statement v0 |
+| Kiểm chứng / research | Cung cấp số liệu tự ghi nhận và tín hiệu phản bác (lớp đã có kênh thông báo riêng nhưng ít dùng); thêm bộ lọc Gmail vào bảng research | Mục 3.2 và 3.3 báo cáo nhóm |
+| Quy trình nhóm | Cung cấp quy trình hiện tại 4 bước kèm số phút từ Card #1 | Bổ sung dữ liệu cho mục 3.2 báo cáo nhóm |
+| Problem Statement | Cung cấp Actor, Bottleneck, Impact từ Card #1 | Góp phần xác định pain là mất thời gian + lo bỏ sót, không phải đã lỡ hạn |
 | Mức can thiệp AI | | |
 | Quyết định | | |
 

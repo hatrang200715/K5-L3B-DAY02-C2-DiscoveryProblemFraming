@@ -2,15 +2,13 @@
 
 > Bản chung của nhóm, viết trên repo do nhóm trưởng fork. Không copy file này sang repo cá nhân.
 > Template chi tiết và prompt mẫu: [docs/01-worksheet.md](../../docs/01-worksheet.md). Bài mẫu: [docs/02-deliverable-example.md](../../docs/02-deliverable-example.md).
->
-> Chỗ ghi `⟨CẦN ĐIỀN⟩` là dữ liệu thật mà nhóm phải tự bổ sung (pitch của từng thành viên, kết quả phỏng vấn). Xóa ghi chú này khi xong.
 
 ## 1. Thông tin nhóm
 
 - Tên nhóm: C2
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Học viên mất ~30 phút/ngày dò LMS, email và group chat để biết deadline, vì thông báo chính thức của lead/coach bị lẫn giữa rất nhiều tin hỏi đáp của học viên.
-- Quyết định cuối: **Not Yet** (xem mục 8)
+- Candidate problem được chọn (1 câu): Học viên phải theo dõi thông báo học tập từ nhiều nền tảng (LMS/Phoenix, email, Discord, Zalo) mất 15–30 phút/ngày để dò và lọc thông báo cần hành động, và có nguy cơ bỏ sót deadline vì thông báo quan trọng bị lẫn giữa tin trao đổi thông thường.
+- Quyết định cuối: Not Yet
 
 ---
 
@@ -20,58 +18,90 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Phùng Thị Nhài | Khi thông báo deadline nằm rải rác ở LMS, email, group chat, tôi muốn biết chắc tuần này phải nộp gì, để không phải lúc nào cũng lo bỏ sót | Học viên lớp ~85 người | Lọc tin của lead giữa tin hỏi đáp trong group chat (~15/30 phút mỗi ngày) | ⟨CẦN ĐIỀN: câu hỏi — người hỏi⟩ |
-| 2 | Phùng Thị Nhài | Khi làm báo cáo nhóm, tôi muốn gom phần của mọi người vào một file thống nhất định dạng, để nộp đúng hạn | Người tổng hợp báo cáo nhóm | Ghép + sửa định dạng (~12/20 phút mỗi lần, ~15 lần/tháng) | ⟨CẦN ĐIỀN⟩ |
-| 3 | Phùng Thị Nhài | Khi cần tìm lại file/link cũ trong group chat, tôi muốn tìm ra trong vài giây, để không phải hỏi lại cả nhóm | Thành viên nhóm học tập | Kéo ngược lịch sử chat (2–3 phút/lần, 20–30 lần/tuần) | ⟨CẦN ĐIỀN⟩ |
-| 4 | ⟨Thành viên 2⟩ | ⟨CẦN ĐIỀN⟩ | | | |
-| 5 | ⟨Thành viên 2⟩ | ⟨CẦN ĐIỀN⟩ | | | |
-| 6 | ⟨Thành viên 2⟩ | ⟨CẦN ĐIỀN⟩ | | | |
-| 7 | ⟨Thành viên 3⟩ | ⟨CẦN ĐIỀN⟩ | | | |
-| 8 | ⟨Thành viên 3⟩ | ⟨CẦN ĐIỀN⟩ | | | |
-| 9 | ⟨Thành viên 3⟩ | ⟨CẦN ĐIỀN⟩ | | | |
+| 1 | Nhài Phùng | Khi cần theo dõi deadline, tôi muốn tổng hợp thông báo từ nhiều kênh để tiết kiệm thời gian. | Sinh viên| Thông báo phân tán nhiều nơi. | Bạn đã từng bỏ lỡ deadline chưa? |
+| 2 |Nhài Phùng  | Khi làm báo cáo nhóm, tôi muốn gom phần của mọi người vào một file thống nhất định dạng để nộp đúng hạn. | Người tổng hợp báo cáo nhóm |Thu thập và chỉnh sửa báo cáo thủ công. |Mỗi lần chỉ mất 20 phút, có đáng giải quyết không?  |
+| 3 | Nhài Phùng |Khi cần tìm lại thông tin trong group chat, tôi muốn tìm nhanh nội dung cũ. | Sinh viên| Tin nhắn quá nhiều, khó tìm kiếm. | Tính năng tìm kiếm và ghim tin nhắn có đủ chưa? |
+| 4 |Nguyễn Gia Nam | Khi quản lý dự án nhóm, tôi muốn nắm tiến độ và điều chỉnh kế hoạch kịp thời mà không phải liên tục hỏi từng thành viên. |Trưởng nhóm dự án, nhóm sinh viên  |Thành viên ít chủ động cập nhật; trưởng nhóm phải hỏi thủ công và khó đánh giá tiến độ tổng thể.  |Câu hỏi của Nhài Phùng :Nhóm làm vài giờ có cần hệ thống này không? AI có cần thiết hơn checklist hoặc lịch nhắc?   |
+| 5 | Nguyễn Gia Nam | Khi học từ nhiều tài liệu khác nhau, tôi muốn tổng hợp kiến thức thành ghi chú có cấu trúc thống nhất để dễ hiểu và ôn tập. | Sinh viên, người tự học |Tài liệu có cấu trúc khác nhau, khó đối chiếu và kết nối nội dung thành ghi chú nhất quán.  |Câu hỏi của abc: AI tổng hợp có làm giảm khả năng tự học không? Dùng mẫu ghi chú cố định có đủ không?  |
+| 6 |Nguyễn Gia Nam  |Khi tìm tài liệu cho một chủ đề, tôi muốn nhanh chóng xác định nguồn phù hợp và đáng tin cậy để phục vụ học tập, nghiên cứu.  |Sinh viên, người nghiên cứu  |Phải tìm kiếm, đọc sơ bộ và đánh giá nhiều nguồn trước khi lựa chọn tài liệu phù hợp.  |Câu hỏi của bcx: Vấn đề có thực sự nghiêm trọng không? Công cụ tìm kiếm hiện có chưa giải quyết được ở bước nào?  |
+| 7 |Hạnh Lương |khi ra vào vinhomes vào giờ giới nghiêm, tôi muốn việc xác minh danh tính được thực hiện nhanh chóng và chính xác hơn để không phải tốn nhiều thời gian đứng chờ ngoài cổng |Cư dân vinhomes|Dữ liệu cá nhân truy cập khó và cần sự phối hợp của cư dân |Có thực sự đang để đầu tư nhiều chi phí tới vậy không? |
+| 8 |Hạnh Lương |khi đến bữa ăn trưa, tôi muốn biết còn bao nhiêu bàn ăn còn trống dưới căn tin để không mất thời gian đi xuống rồi lại chờ đợi| học viên VinUni |Học viên VinUni |Chi phí của solution cao hơn lợi ích thu được |Người dùng có chịu trả phí không? Có quan trọng không? |
+| 9 |Hạnh Lương |khi sáng thức dậy, cư dân Vinhomes muốn biết những tiện ích nào đang sẵn sàng và những cảnh báo sớm từ trước để bố trí lịch cá nhân phù hợp như nên tập thể dục ở công viên vào khung giờ nào để tránh mưa hay ảnh hưởng cực đoan từ thời tiết |Cư dân vinhomes |Chi phí của solution cao hơn lợi ích thu được | |
+
 
 ### 2.2. Cluster
 
 | Cluster | Các candidate | Pattern chung |
 |---|---|---|
-| A — Quá tải thông tin từ nhiều kênh | #1, #3, ⟨candidate của bạn khác nếu cùng pattern⟩ | Thông tin quan trọng bị chìm trong nhiều kênh/tin nhắn, phải dò thủ công |
-| B — Phối hợp làm việc nhóm | #2, ⟨…⟩ | Tốn thời gian ghép, chờ, đồng bộ giữa các thành viên |
-| C | ⟨CẦN ĐIỀN⟩ | |
+| A-Học tập / tổng hợp |Tổng hợp deadline, Gom báo cáo nhóm,Tổng hợp kiến thức |Tổng hợp, tìm kiếm và tổ chức thông tin phục vụ học tập |
+| B— Tìm kiếm thông tin |Tìm thông tin trong group chat |Tìm đúng thông tin trong nhiều nguồn rời rạc |
+| C— Quản lý công việc |Theo dõi tiến độ nhóm |Theo dõi tiến độ, cập nhật công việc và giảm quản lý thủ công |
+| D — Tiện ích sinh hoạt |Xác minh ra vào VinHomes; Tìm bàn trống căn tin |Giảm thời gian chờ đợi và cải thiện trải nghiệm sinh hoạt |
 
 ### 2.3. Opportunity Solution Tree rút gọn
 
 Gốc là **1 outcome**. Nhánh là **opportunity** (nhu cầu, pain), không phải tính năng hay công cụ.
 
 ```text
-OUTCOME: Học viên nắm đủ việc cần làm và hạn nộp mà tốn ít thời gian dò tin
-├── Opportunity A: Thông báo chính thức bị lẫn giữa tin hỏi đáp của học viên
-├── Opportunity B: Phải kiểm tra nhiều cổng (LMS, email, group chat) mỗi ngày
-└── Opportunity C: Không chắc thông tin mình có là mới nhất (đổi hạn) → phải hỏi lại bạn bè
+OUTCOME: Giảm thời gian kiểm tra thông báo học tập
+         và hạn chế bỏ sót deadline quan trọng
+         của học viên sử dụng nhiều nền tảng.
+│
+├── Opportunity A:
+│   Học viên mất nhiều thời gian vì phải
+│   kiểm tra thông báo ở nhiều nền tảng
+│   như Discord, Gmail, Outlook, Phoenix và Zalo.
+│
+├── Opportunity B:
+│   Học viên khó nhận biết thông báo nào
+│   quan trọng, cần hành động ngay hoặc
+│   có deadline giữa nhiều thông tin khác.
+│
+└── Opportunity C:
+    Học viên khó theo dõi và ghi nhớ
+    các thời hạn đã nhận, dẫn đến nguy cơ
+    quên xác nhận hoặc bỏ lỡ deadline.
 ```
 
-Những ý đã gạch bỏ vì là solution đội lốt opportunity:
+**Những ý đã gạch bỏ vì là solution đội lốt opportunity:**
 
-- ~~"Thiếu một AI tổng hợp email và LMS"~~ → đây là giải pháp; pain thật là "mất 30 phút/ngày và luôn sợ bỏ sót"
-- ~~"Cần app nhắc deadline"~~ → giải pháp, không phải nhu cầu
+- "Xây dựng ứng dụng AI tổng hợp thông báo từ Discord, Gmail, Outlook, Phoenix và Zalo" → Đây là giải pháp kỹ thuật, không phải nhu cầu người dùng.
+- "Sử dụng AI để tự động phân loại thông báo quan trọng" → Đây là tính năng dự kiến, chưa mô tả khó khăn thực tế.
+- "Tạo chatbot hoặc AI Agent tự động quản lý deadline" → Đây là phương án triển khai, không phải opportunity.
+- "Tích hợp Google Calendar để tự động nhắc deadline" → Đây là giải pháp cho nhu cầu theo dõi thời hạn.
+- "Xây dựng dashboard hiển thị tất cả thông báo" → Đây là một thiết kế giao diện, không phải vấn đề cần giải quyết.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| #1 Deadline rải rác nhiều kênh | 5 | 5 | 3 | 4 | 5 | 5 | 5 | 32 |
-| ⟨Candidate 2⟩ | | | | | | | | |
-| ⟨Candidate 3⟩ | | | | | | | | |
+| Tổng hợp thông báo học tập và deadline từ nhiều nền tảng | 5 | 5 | 4 | 4 | 4 | 5 | 5 | **32** |
+| Quản lý tiến độ và nhắc việc trong nhóm sinh viên | 4 | 5 | 3 | 3 | 4 | 5 | 5 | **29** |
+| Tổng hợp tài liệu học tập thành ghi chú thống nhất | 5 | 4 | 3 | 3 | 4 | 4 | 5 | **28** |
 
-**Candidate được chọn:** #1 — Deadline và thông báo nằm rải rác ở LMS, email, group chat.
+**Candidate được chọn:**
 
-**Vì sao chọn:** Cả nhóm đều là học viên nên hiểu domain; quy trình vẽ được rõ (4 bước, có số phút); impact đo được (30 phút/ngày, hỏi bạn ~4 lần/tuần); so sánh được đủ 4 mức can thiệp vì có phương án No AI rõ ràng (kênh thông báo riêng).
+Tổng hợp thông báo học tập và deadline từ nhiều nền tảng như Discord, Gmail, Outlook, Phoenix và Zalo, dành cho học viên phải theo dõi từ 2 cổng thông tin trở lên.
+
+**Vì sao chọn:**
+
+Nhóm thấy đây là vấn đề gần với trải nghiệm học tập thực tế và có đối tượng người dùng tương đối rõ ràng. Qua phỏng vấn, có học viên từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h và chỉ biết nhờ bạn bè nhắc. Người được phỏng vấn cũng ước tính mất khoảng 15–20 phút mỗi ngày để kiểm tra các nguồn thông tin.
+
+Vấn đề này có thể kiểm chứng bằng một MVP nhỏ: sử dụng các thông báo mẫu, phân loại nội dung quan trọng, trích xuất deadline và cho người dùng xác nhận kết quả. Nhóm có thể đo thời gian xử lý, tỷ lệ phát hiện thông báo quan trọng và độ chính xác khi nhận diện deadline.
+
+Ngoài ra, đề tài phù hợp để so sánh giữa cách làm thủ công (No AI), lọc theo từ khóa (Rule), quy trình tự động kết hợp AI (Workflow) và Agent. Tuy nhiên, nhóm chưa cần triển khai Agent ở giai đoạn đầu.
 
 **Vì sao loại các candidate còn lại:**
-- #2 Gom báo cáo nhóm: mỗi lần chỉ ~20 phút, giải được bằng template chung (No AI), không đủ để so sánh các mức AI.
-- #3 Tìm lại thông tin trong group chat: phần lớn giải được bằng tính năng ghim/tìm kiếm sẵn có + 1 file "Tài nguyên nhóm".
-- ⟨CẦN ĐIỀN: lý do loại candidate của các bạn khác⟩
 
-**Xử lý bất đồng (nếu có):** ⟨CẦN ĐIỀN, hoặc ghi "Không có"⟩
+- **Quản lý tiến độ nhóm:** Có khó khăn thực tế là trưởng nhóm phải chủ động hỏi tiến độ, nhưng chưa có bằng chứng rõ về hậu quả nghiêm trọng như trễ deadline. Sau phản biện, nhóm cũng nhận thấy các dự án ngắn hoặc nhóm ít người có thể chỉ cần bảng phân công và lịch nhắc đơn giản. Vì vậy, ý tưởng này cần xác định lại phân khúc người dùng trước khi phát triển.
+
+- **Tổng hợp tài liệu học tập:** Đây là nhu cầu có thật, nhưng chưa chứng minh được việc dùng AI tốt hơn một mẫu ghi chú thống nhất. Việc đánh giá chất lượng ghi chú cũng cần xem xét độ chính xác, tính đầy đủ và khả năng hiểu bài, không chỉ đo thời gian tạo ghi chú. Do đó, nhóm chưa ưu tiên candidate này.
+
+**Xử lý bất đồng (nếu có):**
+
+Trong quá trình thảo luận, mỗi thành viên có những ý tưởng và góc nhìn khác nhau. Thay vì chỉ chọn ý tưởng có nhiều tính năng AI, nhóm xem xét người dùng, bằng chứng, mức độ ảnh hưởng và khả năng thử nghiệm trong thời gian lab.
+
+Với ý tưởng quản lý công việc nhóm, câu hỏi về việc một nhóm chỉ làm việc trong 8 tiếng có cần hệ thống riêng hay không đã giúp làm rõ hạn chế của đề xuất. Sau khi trao đổi, nhóm thống nhất ưu tiên hướng tổng hợp thông báo và deadline do chị Nhài đề xuất. Các ý tưởng khác được giữ lại để tiếp tục nghiên cứu nếu có thêm bằng chứng.
 
 ---
 
@@ -81,60 +111,70 @@ Những ý đã gạch bỏ vì là solution đội lốt opportunity:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Nhiều học viên khác (không chỉ người đề xuất) mất ≥15 phút/ngày dò thông báo deadline | Value | 5 | 1 | **Có** |
-| 2 | Phần tốn thời gian nhất là lọc tin của lead giữa tin hỏi đáp trong group chat | Value | 5 | 2 | **Có** |
-| 3 | Học viên thường phải hỏi lại bạn bè để xác nhận deadline | Value | 4 | 2 | Có |
-| 4 | Thông báo của lead viết tự do, Rule theo từ khóa không bắt đủ | Feasibility | 4 | 1 | Có (thử với 20 tin thật) |
-| 5 | Có người (lớp trưởng/học viên) sẵn sàng dành ~10 phút/ngày xác nhận bảng deadline | Viability | 4 | 1 | Sau |
-| 6 | Lead/coach đồng ý cho dùng nội dung group chat để tổng hợp | Viability | 3 | 1 | Sau |
+| 1 | Học viên sử dụng từ 2 nền tảng trở lên gặp khó khăn khi theo dõi thông báo và có nguy cơ bỏ sót deadline quan trọng. | Value | 5 | 3 | Có |
+| 2 | Việc tổng hợp thông báo về một nơi sẽ giúp học viên giảm thời gian kiểm tra và tìm kiếm thông tin. | Value | 5 | 2 | Có |
+| 3 | Học viên có thể sử dụng giao diện tổng hợp, kiểm tra và xác nhận deadline mà không phải thao tác quá nhiều. | Usability | 4 | 1 | Có |
+| 4 | AI có thể phân loại thông báo quan trọng và trích xuất deadline từ nội dung tiếng Việt, tiếng Anh với độ chính xác đủ để hỗ trợ người dùng. | Feasibility | 5 | 1 | Có |
+| 5 | Nhóm có thể xây dựng MVP bằng thông báo mẫu hoặc dữ liệu do người dùng chủ động cung cấp, chưa cần tích hợp trực tiếp tất cả nền tảng. | Feasibility | 4 | 2 | Không |
+| 6 | Học viên sẵn sàng sử dụng công cụ thường xuyên và cho phép xử lý nội dung thông báo khi có cơ chế bảo vệ dữ liệu phù hợp. | Viability | 4 | 1 | Có |
 
-Giả định nhóm kiểm chứng trong buổi này: **#1 và #2** (quan trọng nhất, ít bằng chứng nhất — hiện chỉ có dữ liệu của 1 người).
+**Giả định nhóm kiểm chứng trong buổi này:**
+
+Nhóm tập trung kiểm chứng bước đầu giả định số 1: học viên sử dụng nhiều nền tảng có thực sự gặp khó khăn và nguy cơ bỏ sót thông báo quan trọng hay không.
+
+Qua phỏng vấn, một học viên cho biết phải kiểm tra thông tin từ Discord, Gmail, Outlook, Phoenix và Zalo, mất khoảng 15–20 phút mỗi ngày, đôi khi lên tới 30 phút. Người này cũng từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h và chỉ kịp biết nhờ bạn bè nhắc.
+
+Kết quả này bước đầu cho thấy vấn đề có tồn tại, nhưng mới dựa trên một người được phỏng vấn nên chưa đủ để kết luận cho toàn bộ học viên. Các giả định về khả năng giảm thời gian, độ chính xác của AI và mức độ sẵn sàng sử dụng vẫn cần thử nghiệm MVP và phỏng vấn thêm.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: ⟨CẦN ĐIỀN: Phỏng vấn / Survey⟩
+**Cách đã dùng:** Phỏng vấn (Interview)
 
-Câu hỏi phỏng vấn (theo The Mom Test — hỏi hành vi đã xảy ra, không hỏi ý tưởng):
-1. Lần gần nhất bạn kiểm tra deadline là khi nào? Bạn mở những kênh nào, theo thứ tự nào?
-2. Hôm qua bạn mất khoảng bao lâu cho việc đó?
-3. Tuần này bạn có phải hỏi ai về hạn nộp không? Chuyện gì đã xảy ra?
-4. Có lần nào bạn suýt lỡ hoặc hiểu sai một thông báo không? Kể lại.
-5. Hiện bạn làm gì để không bỏ sót (ghim, ghi chú, bật thông báo…)?
-
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+**Interview snapshot:**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | ⟨CẦN ĐIỀN, vd. "Học viên L3B, nhóm khác"⟩ |
-| Câu nói đáng nhớ nhất (nguyên văn) | ⟨CẦN ĐIỀN⟩ |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | ⟨CẦN ĐIỀN⟩ |
-| Hiện đang xử lý bằng cách nào (workaround)? | ⟨CẦN ĐIỀN⟩ |
-| Mất bao lâu, bao lần? | ⟨CẦN ĐIỀN⟩ |
-| Insight / opportunity rút ra | ⟨CẦN ĐIỀN⟩ |
+| Người được hỏi (vai trò, không ghi tên thật) | Học viên đang tham gia khóa học, phải theo dõi thông báo từ nhiều nền tảng như Discord, Gmail, Outlook, Phoenix và Zalo. |
+| Câu nói đáng nhớ nhất (nguyên văn) | Chưa có bản ghi nguyên văn được xác nhận. Cần bổ sung câu nói trực tiếp từ người được phỏng vấn. |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Người được hỏi từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h. Nhờ bạn bè nhắc nên mới kịp phát hiện và xử lý. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Chủ động mở từng nền tảng để kiểm tra thông báo, đồng thời dựa vào việc bạn bè nhắc khi có thông tin quan trọng. |
+| Mất bao lâu, bao lần? | Ước tính khoảng 15–20 phút mỗi ngày để kiểm tra các nguồn thông báo, có lúc khoảng 30 phút. Chưa ghi nhận chính xác số lần bỏ sót deadline. |
+| Insight / opportunity rút ra | Vấn đề không chỉ nằm ở số lượng thông báo mà còn ở việc thông tin quan trọng bị phân tán. Có cơ hội xây dựng công cụ tập trung thông báo, phát hiện deadline và hỗ trợ người dùng xác nhận trước khi tạo nhắc nhở. |
 
-Tổng hợp:
+**Tổng hợp:**
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Người đề xuất (tự ghi nhận) | 1 | 30 phút/ngày; hỏi bạn ~4 lần/tuần; luôn lo bỏ sót | Chưa lỡ deadline nào; lớp đã có kênh thông báo riêng (ít được dùng) |
-| Phỏng vấn | ⟨CẦN ĐIỀN⟩ | ⟨CẦN ĐIỀN⟩ | ⟨CẦN ĐIỀN — bắt buộc có ít nhất 1⟩ |
+| Người đề xuất candidate (Nhài Phùng, tự ghi nhận — không tính là phỏng vấn) | 1 | Mất ~30 phút/ngày (LMS 1', email 5', group chat 15', ghi lịch/hỏi bạn ~9'); hỏi bạn bè xác nhận hạn ~4 lần/tuần; lớp ~85 người dùng chung các kênh; luôn lo bỏ sót. | Chưa từng lỡ deadline nào. Lớp **đã có kênh thông báo riêng** nhưng ít được dùng, đa số thông báo vẫn đăng ở nhóm đông người → vấn đề một phần nằm ở thói quen người đăng, không chỉ ở công cụ. Số phút là ước lượng, chưa đo log. |
+| Phỏng vấn học viên | 1 người được ghi nhận trong dữ liệu hiện có | Phải kiểm tra nhiều nền tảng, mất khoảng 15–20 phút/ngày và từng suýt bỏ lỡ email Outlook quan trọng. | Chưa ghi nhận phản bác trực tiếp. Người được hỏi vẫn kịp xử lý nhờ bạn bè nhắc, nên chưa chứng minh rằng cần một ứng dụng mới thay vì cải thiện cách nhắc hiện tại. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
-- Đã sửa (từ phản biện): pain không phải "lỡ deadline" mà là **tốn thời gian + phụ thuộc bạn bè + lo bỏ sót** → metric đổi sang số phút/ngày và số lần hỏi bạn.
-- Đã sửa: bottleneck không phải "thiếu thông tin" mà là **thông báo chính thức bị lẫn giữa tin hỏi đáp**.
-- ⟨CẦN ĐIỀN: thay đổi sau phỏng vấn⟩
+
+Ban đầu, nhóm tiếp cận vấn đề theo hướng xây dựng công cụ tổng hợp thông báo từ nhiều nền tảng. Tuy nhiên, sau khi xem xét kết quả phỏng vấn, nhóm nhận thấy không nên chỉ tập trung vào việc gom tất cả thông báo về một nơi.
+
+Từ câu phản biện "Bạn đã từng bỏ lỡ deadline chưa?" ở CP3: người đề xuất chưa lỡ deadline nào, nên nhóm xác định pain chính là **mất thời gian dò tin, phụ thuộc bạn bè nhắc và luôn lo bỏ sót**, không phải "đã lỡ hạn". Metric vì vậy tập trung vào thời gian kiểm tra và khả năng không bỏ sót, thay vì số deadline bị lỡ.
+
+Nhóm điều chỉnh cách mô tả vấn đề theo hướng cụ thể hơn:
+
+- **Actor:** Học viên phải theo dõi thông báo học tập từ ít nhất 2 nền tảng.
+- **Pain:** Mất thời gian kiểm tra thủ công, khó xác định thông báo cần hành động và có nguy cơ bỏ sót deadline.
+- **Impact:** Tốn khoảng 15–20 phút mỗi ngày theo trường hợp được phỏng vấn; có thể bỏ lỡ các yêu cầu xác nhận hoặc thời hạn quan trọng.
+- **Opportunity:** Hỗ trợ phát hiện, phân loại và trích xuất deadline từ thông báo, cho phép người dùng kiểm tra và xác nhận kết quả.
+- **Phạm vi MVP:** Sử dụng thông báo mẫu hoặc nội dung người dùng nhập thủ công, chưa tích hợp trực tiếp tất cả nền tảng.
+
+**Problem Statement sau điều chỉnh:**
+
+Học viên phải theo dõi thông báo học tập từ nhiều nền tảng như Discord, Gmail, Outlook, Phoenix và Zalo đang gặp khó khăn trong việc nhận diện và theo dõi những thông tin cần hành động đúng hạn. Việc kiểm tra thủ công nhiều nguồn gây mất thời gian và tạo nguy cơ bỏ sót deadline quan trọng. Nhóm cần kiểm chứng liệu một công cụ hỗ trợ tổng hợp, phân loại thông báo và trích xuất deadline có thể giúp giảm thời gian kiểm tra và hạn chế bỏ sót thông tin hay không.
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Bộ lọc Gmail (filter theo tiêu chí tìm kiếm) | https://support.google.com/mail/answer/6579 | Bước 2 — lọc email theo người gửi/từ khóa, gắn nhãn tự động | Miễn phí, có sẵn, là Rule thuần | Chỉ cho email, không đọc group chat; không hiểu nội dung (đổi hạn) | Bước email giải được bằng **Rule**, không cần AI |
-| Google Calendar — thêm lịch từ URL | https://support.google.com/calendar/answer/37100 | Bước 1, 4 — gom lịch từ nguồn khác (nếu LMS có link lịch) vào một chỗ | Có sẵn, tự cập nhật | Chỉ thêm được lịch công khai/có link; LMS của lớp có xuất lịch không thì ⟨CẦN KIỂM TRA⟩ | Nếu LMS xuất được lịch, bước LMS gần như tự động — **No AI** |
-| Gemini trong Gmail (tóm tắt email) | https://support.google.com/mail/answer/14199860 | Bước 2 — tóm tắt chuỗi email, liệt kê việc cần làm | Đã có AI tóm tắt sẵn trong Gmail | Cần gói Google Workspace/AI đủ điều kiện; không đọc group chat Zalo/Discord | Phần AI cho email **đã có sẵn trên thị trường** → nhóm không nên tự xây; khoảng trống thật nằm ở **group chat** |
-
-> Mỗi link trên đã được mở và kiểm nội dung ngày 2026-11-10. Thành viên nhóm nên tự mở lại trước khi nộp.
-
-**Kết luận research:** Bước LMS và email đã có công cụ giải (Rule/No AI). Khoảng trống còn lại là **bước 3 — group chat**, nơi thông báo viết tự do và bị lẫn với tin hỏi đáp.
+| **Google Calendar + Google Tasks** | [Google Calendar Help](https://support.google.com/calendar/answer/9901136) | Ghi nhận deadline, lập lịch học, tạo nhiệm vụ và theo dõi thời hạn hoàn thành. | Giao diện lịch trực quan; quản lý công việc theo ngày; hỗ trợ ngày đến hạn và nhắc việc. | Người học vẫn có thể phải tự đọc thông báo và nhập deadline thủ công. Không mặc định tổng hợp thông báo từ Discord, Phoenix, Outlook và Zalo. | Cần có giao diện lịch và danh sách deadline tập trung, đồng thời giảm thao tác nhập liệu thủ công. |
+| **Microsoft Outlook + Microsoft To Do** | [Microsoft Support](https://support.microsoft.com/en-us/todo/using-microsoft-to-do-with-flagged-email-from-outlook) | Tiếp nhận email, đánh dấu email cần xử lý, chuyển email được gắn cờ thành nhiệm vụ và theo dõi công việc. | Tích hợp email và quản lý nhiệm vụ; phù hợp với thông báo học tập được gửi qua Outlook. | Phụ thuộc vào loại tài khoản và thao tác đánh dấu email; không tự giải quyết việc theo dõi thông báo phân tán trên Phoenix, Discord và Zalo. | Cần hỗ trợ phát hiện những thông báo yêu cầu hành động, đặc biệt là email xác nhận thông tin và thông báo có hạn chót. |
+| **Zapier — Workflow Automation** | [Zapier Help Center](https://help.zapier.com/hc/en-us/articles/8495982223629-How-to-get-started-with-Google-Calendar-on-Zapier) | Kết nối các ứng dụng được hỗ trợ, tự động chuyển dữ liệu và tạo sự kiện lịch khi có điều kiện kích hoạt. | Giảm thao tác lặp lại; hỗ trợ xây dựng workflow tự động giữa các dịch vụ có tích hợp. | Cần cấu hình kết nối, quyền truy cập và điều kiện kích hoạt. Khả năng lấy dữ liệu từ Phoenix, Zalo và các kênh Discord cụ thể chưa được xác minh. | Nên ưu tiên kiểm tra khả năng tự động hóa bằng workflow và rule trước khi quyết định sử dụng AI. |
+| **Bộ lọc Gmail (filter)** | [Gmail Help](https://support.google.com/mail/answer/6579) | Lọc email theo tiêu chí tìm kiếm (người gửi, từ khóa), tự gắn nhãn/gắn sao. | Miễn phí, có sẵn, là Rule thuần — giải được phần email mà không cần AI. | Chỉ áp dụng cho Gmail; không hiểu nội dung (vd. tin đổi hạn); không đọc Discord, Zalo, Phoenix. | Bước lọc email nên dùng **Rule**, AI chỉ cần cho phần tin nhắn viết tự do. |
+| **Notion + Notion Calendar** | [Notion Help Center](https://www.notion.com/help/use-notion-calendar-with-notion) | Tổng hợp công việc, quản lý trạng thái, ngày đến hạn và theo dõi tiến độ trên lịch. | Cho phép tổ chức thông tin linh hoạt; có thể quản lý nhiều nhiệm vụ và deadline trong một không gian làm việc. | Cần có dữ liệu đầu vào phù hợp; chưa xác minh khả năng tự động thu thập toàn bộ thông báo học tập từ các nền tảng mà nhóm sử dụng. | Có thể tham khảo cách thiết kế dashboard tập trung, hiển thị nguồn thông báo, nội dung, deadline, mức độ ưu tiên và trạng thái hoàn thành. |
 
 ---
 
@@ -142,48 +182,267 @@ Tổng hợp:
 
 ### 4.1. Quy trình hiện tại
 
-```mermaid
-flowchart LR
-  A[1. Mở LMS<br/>1 phút] --> B[2. Đọc email<br/>5 phút] --> C[3. Lướt group chat,<br/>lọc tin của lead<br/>15 phút ⚠️ BOTTLENECK] --> D[4. Chép lịch,<br/>hỏi bạn xác nhận<br/>~9 phút]
+Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+**Actor chính:** Sinh viên/học viên đang tham gia chương trình đào tạo và phải theo dõi thông báo học tập từ nhiều nền tảng.
+
+**Mô tả:** Hiện tại, người học phải chủ động mở từng nền tảng để tìm kiếm thông báo, đọc nội dung, xác định deadline và tự ghi nhớ hoặc tạo nhắc lịch. Quá trình này phụ thuộc vào thói quen kiểm tra thông báo của từng cá nhân.
+```
+[BẮT ĐẦU]
+     |
+     v
+[Phát sinh thông báo học tập]
+     |
+     v
+[Thông báo phân tán trên nhiều nền tảng]
+     |
+     +----> Phoenix: Lịch học, workshop, standup
+     |
+     +----> Discord: Lab-code, lab-coach, thông báo nhóm
+     |
+     +----> Outlook: Email trường, xác nhận thông tin
+     |
+     +----> Gmail: Thông báo và tin tức
+     |
+     +----> Zalo: Trao đổi, phân chia công việc nhóm
+     |
+     v
+[Sinh viên mở và kiểm tra thủ công từng nền tảng]
+     |
+     v
+[Đọc thông báo, tìm thông tin liên quan]
+     |
+     v
+{Thông báo có việc cần làm hoặc deadline?}
+     |
+     +---- KHÔNG ----> [Bỏ qua hoặc ghi nhớ thông tin]
+     |                           |
+     |                           v
+     |                    [Tiếp tục kiểm tra]
+     |
+     +---- CÓ
+           |
+           v
+    {Deadline có rõ ràng?}
+           |
+           +---- KHÔNG ----> [Tìm lại tin nhắn,
+           |                  hỏi nhóm hoặc lab-coach]
+           |                         |
+           |                         v
+           |                  [Xác định deadline]
+           |
+           +---- CÓ
+                 |
+                 v
+      [Tự ghi nhớ hoặc nhập lịch nhắc thủ công]
+                 |
+                 v
+      [Theo dõi và thực hiện công việc]
+                 |
+                 v
+      {Có bỏ sót thông báo/deadline?}
+                 |
+          +------+------+
+          |             |
+         CÓ           KHÔNG
+          |             |
+          v             v
+ [Phát hiện muộn,   [Hoàn thành
+  xử lý gấp hoặc     đúng hạn]
+  có nguy cơ trễ]
+          |             |
+          +------+------+
+                 |
+                 v
+             [KẾT THÚC]
+
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Học viên | Trang bài tập trên LMS | Danh sách bài tập + hạn trên LMS | 1 phút/ngày | Thông tin rõ ràng nhưng không đủ (đổi hạn thường báo ở group) |
-| 2 | Học viên | Hộp thư email trường | Thông báo từ trường/coach | 5 phút/ngày | Lẫn với email không liên quan |
-| 3 | Học viên | Group Zalo/Discord lớp (~85 người) | Thông báo của lead/coach | 15 phút/ngày (ước lượng) | **Bottleneck**: tin của lead bị chìm giữa câu hỏi học viên |
-| 4 | Học viên + bạn bè | Thông tin từ bước 1–3 | Lịch/ghi chú cá nhân | ~9 phút/ngày; hỏi bạn ~4 lần/tuần | Phụ thuộc bạn bè để xác nhận |
+| 1 | Giảng viên, lab-coach, nhà trường, thành viên nhóm | Lịch học, thông báo, bài tập, yêu cầu xác nhận và deadline | Thông báo được đăng hoặc gửi trên Phoenix, Discord, Outlook, Gmail, Zalo | Phát sinh tùy hoạt động học tập | Thông tin nằm ở nhiều nguồn khác nhau. |
+| 2 | Sinh viên/học viên | Thông báo từ các nền tảng | Danh sách thông báo đã đọc hoặc phát hiện | Kiểm tra hằng ngày; riêng Discord khoảng 7–8 phút/ngày theo người tham gia 01 | Phải chuyển đổi giữa nhiều ứng dụng và kênh thông báo. |
+| 3 | Sinh viên/học viên | Nội dung thông báo, tin nhắn, email | Xác định thông báo quan trọng, việc cần làm và deadline | Chưa đo riêng từng bước | Có thể phải đọc nhiều tin nhắn hoặc tìm lại nội dung cũ. |
+| 4 | Sinh viên/học viên, bạn học, lab-coach | Thông báo thiếu deadline hoặc chưa rõ yêu cầu | Deadline được làm rõ hoặc thông tin được xác nhận | Khi có thông tin chưa rõ; chưa có số liệu tần suất | Người học phải hỏi cộng đồng hoặc chờ người phụ trách phản hồi. |
+| 5 | Sinh viên/học viên | Thông báo đã xác định là quan trọng, deadline | Ghi nhớ, tạo lịch nhắc thủ công hoặc thực hiện công việc | Tổng thời gian kiểm tra và tổng hợp được người tham gia 01 ước tính khoảng 15–20 phút/ngày, đôi khi 30 phút | Ít sử dụng công cụ nhắc lịch vì phải nhập thủ công; có nguy cơ bỏ sót thông báo. |
 
-**Bottleneck chính:** Bước 3 — lọc thông báo chính thức của lead/coach ra khỏi tin hỏi đáp trong group chat, ~15 phút/ngày (một nửa tổng thời gian).
+**Bottleneck chính:**
+1. **Thông tin phân tán:** Thông báo và deadline xuất hiện trên nhiều nền tảng, khiến người học phải kiểm tra thủ công từng nguồn.
+
+2. **Khó xác định thông tin ưu tiên:** Thông báo quan trọng có thể bị lẫn với tin nhắn trao đổi thông thường, khiến người học không phát hiện kịp yêu cầu cần xử lý.
 
 ### 4.2. Quy trình tương lai
 
-```mermaid
-flowchart TD
-  S1[RULE: Gmail filter gắn nhãn email của trường/coach] --> S3
-  S2[RULE: Chỉ lấy tin trong group do lead/coach gửi<br/>hoặc có từ khóa deadline/hạn/nộp/lùi] --> S3
-  S0[NO AI: Lịch LMS đồng bộ sang Google Calendar<br/>nếu LMS hỗ trợ] --> S5
-  S3[AI: Trích Việc – Hạn – Đổi hạn? – Câu gốc<br/>1 lần/ngày] --> S4
-  S4[CON NGƯỜI: Người phụ trách xác nhận<br/>bắt buộc với tin đổi hạn và mục KHÔNG RÕ] --> S5
-  S5[Bảng deadline tuần + link tin gốc] --> S6[Học viên xem bảng ≤5 phút]
-  S6 -.nghi ngờ / thiếu.-> F[PHƯƠNG ÁN QUAY VỀ: mở link tin gốc<br/>hoặc xem kênh như cách cũ, ghi lỗi lại]
+**Mục tiêu:** Xây dựng quy trình hỗ trợ sinh viên tổng hợp thông báo học tập từ nhiều nền tảng, tự động nhận diện những thông báo cần hành động, trích xuất deadline và hiển thị tại một nơi. Giảm thời gian kiểm tra thủ công và nguy cơ bỏ sót thông tin quan trọng.
+
+**Phạm vi đề xuất:** Discord, Gmail, Outlook, Phoenix và Zalo. Trong MVP, chỉ xử lý các nguồn có thể truy cập hợp lệ hoặc dữ liệu mẫu do người dùng cung cấp; chưa giả định hệ thống có quyền kết nối tự động với toàn bộ nền tảng.
+
+**Sơ đồ quy trình To-Be:**
+
+```text
+[BẮT ĐẦU]
+     |
+     v
+[Thông báo học tập được phát sinh]
+     |
+     v
+[WORKFLOW: Tiếp nhận dữ liệu từ nguồn được phép]
+     |
+     +----> Gmail / Outlook (nếu được cấp quyền)
+     |
+     +----> Discord (nếu được cấp quyền)
+     |
+     +----> Phoenix / Zalo (nếu có tích hợp hợp lệ)
+     |
+     +----> Nhập thủ công / Dán nội dung thông báo (MVP)
+     |
+     v
+[RULE: Chuẩn hóa dữ liệu]
+- Nguồn thông báo
+- Nội dung gốc
+- Thời gian nhận
+- Đường dẫn tham chiếu (nếu có)
+     |
+     v
+[RULE: Loại bỏ thông báo trùng lặp rõ ràng]
+     |
+     v
+{Thông báo có dấu hiệu liên quan học tập?}
+     |
+     +---- KHÔNG
+     |       |
+     |       v
+     |  [Lưu vào danh sách thông báo khác]
+     |       |
+     |       v
+     |  [Cho phép người dùng xem lại]
+     |
+     +---- CÓ
+           |
+           v
+[AI: Phân tích nội dung thông báo]
+- Tóm tắt nội dung
+- Nhận diện việc cần làm
+- Trích xuất deadline nếu có
+- Đề xuất mức độ ưu tiên
+           |
+           v
+[RULE: Kiểm tra đầu ra AI]
+- Có nội dung nguồn để đối chiếu?
+- Deadline có xuất hiện trong nguồn?
+- Định dạng ngày giờ có hợp lệ?
+- Có thông tin mâu thuẫn hoặc thiếu?
+           |
+           v
+{Kết quả rõ ràng và hợp lệ?}
+     |
+     +---- KHÔNG
+     |       |
+     |       v
+     |  [Gắn cờ: CẦN XÁC MINH]
+     |       |
+     |       v
+     |  [CON NGƯỜI: Kiểm tra nguồn gốc,
+     |   chỉnh sửa hoặc bỏ qua]
+     |
+     +---- CÓ
+           |
+           v
+[WORKFLOW: Đưa vào dashboard tập trung]
+- Thông báo quan trọng
+- Công việc cần thực hiện
+- Deadline đề xuất
+- Nguồn thông báo gốc
+           |
+           v
+[CON NGƯỜI: Xem và xác nhận deadline]
+           |
+           v
+{Người dùng xác nhận?}
+     |
+     +---- KHÔNG
+     |       |
+     |       v
+     |  [Sửa / Bỏ qua / Xem thông báo gốc]
+     |
+     +---- CÓ
+           |
+           v
+[RULE: Tạo nhiệm vụ và nhắc lịch]
+           |
+           v
+[WORKFLOW: Hiển thị deadline đã xác nhận]
+           |
+           v
+[CON NGƯỜI: Thực hiện công việc,
+ đánh dấu hoàn thành]
+           |
+           v
+[KẾT THÚC]
 ```
 
-- **Rule:** lọc email (Gmail filter), lọc tin group theo người gửi/từ khóa.
-- **AI:** chỉ trích thông tin từ tin đã lọc (việc, hạn, có phải đổi hạn không, câu gốc).
-- **Con người:** người phụ trách (luân phiên) xác nhận trước khi đưa lên bảng; học viên tự mở tin gốc khi nghi ngờ.
-- **Boundary:** AI không tự quyết hạn khi tin không rõ, không xóa/bỏ qua tin, không trả lời trong group.
-- **Phương án quay về:** nếu bảng thiếu/sai → học viên mở link tin gốc hoặc xem kênh như cũ; lỗi được ghi lại để sửa Rule/prompt.
+#### Phân chia trách nhiệm
+
+| Thành phần | Vai trò trong quy trình | Giới hạn |
+|---|---|---|
+| **Workflow** | Tiếp nhận thông báo, chuyển dữ liệu giữa các bước, cập nhật dashboard và danh sách công việc. | Chỉ xử lý nguồn dữ liệu được phép truy cập; không tự vượt qua cơ chế xác thực của nền tảng. |
+| **Rule** | Chuẩn hóa thông báo, lọc trùng, kiểm tra định dạng deadline, áp dụng quy tắc nhắc lịch. | Không tự suy đoán thời hạn khi nguồn không cung cấp đủ thông tin. |
+| **AI** | Tóm tắt thông báo, trích xuất việc cần làm, đề xuất deadline và mức độ ưu tiên. | Không được tự tạo deadline, thay đổi nội dung gốc hoặc khẳng định thông tin chưa được xác minh. |
+| **Con người (HITL)** | Kiểm tra thông báo quan trọng, xác nhận/chỉnh sửa deadline, quyết định tạo nhiệm vụ và hoàn thành công việc. | Giữ quyền quyết định cuối cùng, có thể bỏ qua mọi đề xuất của AI. |
+
+#### Boundary — Ranh giới an toàn
+
+1. **AI không được tự ý tạo hoặc thay đổi deadline.** Nếu không xác định được thời hạn từ nguồn, hệ thống phải hiển thị "Chưa xác định" hoặc "Cần xác minh".
+2. **AI không được tự động xác nhận thông tin, nộp bài tập, gửi email hoặc nhắn tin thay người dùng.**
+3. **Mọi deadline do AI trích xuất phải có thông báo gốc để đối chiếu.**
+4. **Chỉ tạo lịch nhắc chính thức sau khi người dùng xác nhận.**
+5. **Không truy cập tin nhắn, email hoặc dữ liệu cá nhân khi chưa được cấp quyền.**
+6. **Thông báo bị AI đánh giá là không quan trọng vẫn phải có cách xem lại**, tránh bỏ sót thông tin.
+7. **Thông báo có thời gian mơ hồ hoặc mâu thuẫn phải được gắn cờ**, không tự chọn một deadline.
+
+#### Phương án quay về (Fallback) khi AI sai hoặc không hoạt động
+
+| Tình huống | Phương án xử lý |
+|---|---|
+| AI trích xuất sai deadline | Hiển thị nội dung gốc, cho phép người dùng chỉnh sửa và xác nhận lại. |
+| AI không tìm thấy deadline | Đánh dấu "Chưa xác định", không tự tạo thời hạn. |
+| AI phân loại sai thông báo quan trọng | Cho phép xem toàn bộ thông báo, tìm kiếm và đánh dấu quan trọng thủ công. |
+| AI tạo nội dung không có trong nguồn | Không chấp nhận thông tin không thể đối chiếu; yêu cầu kiểm tra thủ công. |
+| AI không hoạt động hoặc API lỗi | Chuyển sang chế độ Rule + Manual: lọc theo từ khóa, hiển thị thông báo gốc và nhập deadline thủ công. |
+| Không thể kết nối một nền tảng | Thông báo lỗi đồng bộ, giữ dữ liệu đã có và cho phép người dùng dán nội dung thủ công. |
+| Hai nguồn cung cấp deadline mâu thuẫn | Hiển thị cả hai nguồn, đánh dấu "Cần xác minh" và yêu cầu người dùng quyết định. |
+
+**Điểm can thiệp AI:** Sau bước chuẩn hóa và lọc thông báo, trước khi đưa thông tin vào dashboard và tạo lịch nhắc.
+
+**Quyền quyết định cuối cùng:** Sinh viên/học viên sử dụng hệ thống.
+
+**Nguyên tắc thiết kế:** AI đóng vai trò hỗ trợ (augment), không tự động thay thế (automate) quyết định của người dùng.
+
+**Trạng thái:** Đây là quy trình To-Be đề xuất, chưa phải hệ thống đã triển khai hoặc được kiểm chứng thực tế. Các tích hợp nền tảng và hiệu quả giảm thời gian cần được thử nghiệm trong MVP.
 
 ### 4.3. Before / after
 
+**Mục tiêu so sánh:** Đánh giá sự thay đổi kỳ vọng giữa quy trình hiện tại (As-Is) và quy trình đề xuất (To-Be) trong việc theo dõi thông báo học tập, xác định deadline và quản lý công việc.
+
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
-|---|---:|---:|---|
-| Số bước (phía học viên) | 4 | 1–2 | Xem bảng; mở tin gốc khi nghi ngờ |
-| Tổng thời gian (học viên) | ~30 phút/ngày | ≤ 5 phút/ngày | Cần đo lại bằng log |
-| Số bước thủ công | 4 | 2 (người xác nhận + học viên xem bảng) | |
-| Bottleneck chính | Lọc tin lead trong group chat (15 phút) | Người xác nhận bảng (~10 phút/ngày, 1 người cho cả lớp) | Dời việc từ 85 người sang 1 người |
-| Rủi ro mới phát sinh | — | AI bỏ sót/sai hạn; học viên tin bảng mà không kiểm tra; dồn việc lên người xác nhận; quyền riêng tư tin nhắn lớp | Xử lý bằng boundary + link tin gốc |
+| :--- | :--- | :--- | :--- |
+| **Số bước** | 5 bước chính | 4 bước người dùng cần thực hiện | Trước: kiểm tra từng nền tảng → đọc và tìm thông tin → xác minh deadline → ghi nhớ/tạo nhắc lịch → thực hiện công việc. Sau: mở dashboard → xem thông báo đã phân tích → xác nhận/chỉnh sửa deadline → thực hiện công việc. Chỉ tính các bước người dùng trực tiếp thực hiện, không tính các bước xử lý nội bộ của hệ thống. |
+| **Tổng thời gian** | Khoảng 15–20 phút/ngày, có ngày lên tới 30 phút | Mục tiêu 5–10 phút/ngày | Baseline ban đầu dựa trên ước tính của người tham gia 01, chưa đại diện cho toàn bộ sinh viên. Mục tiêu sau triển khai cần được kiểm chứng bằng thử nghiệm MVP trên cùng loại tác vụ. |
+| **Số bước thủ công** | 5 bước có sự tham gia thủ công | 3–4 bước tùy trường hợp | Hệ thống đề xuất tự động tiếp nhận, chuẩn hóa, lọc và trích xuất thông tin. Người dùng vẫn cần xem, xác nhận/chỉnh sửa deadline và thực hiện công việc. |
+| **Bottleneck chính** | Thông báo phân tán trên Discord, Gmail, Outlook, Phoenix và Zalo; phải tự tìm thông tin quan trọng và ghi nhớ deadline | Giảm việc chuyển đổi nền tảng; tập trung thông báo cần hành động và deadline vào một dashboard | Hiệu quả phụ thuộc vào khả năng tiếp nhận dữ liệu hợp lệ và độ chính xác của quá trình phân tích thông báo. |
+| **Rủi ro mới phát sinh** | Chủ yếu là bỏ sót thông báo, ghi nhớ sai hoặc quên nhập lịch nhắc | AI trích xuất sai deadline, phân loại sai mức độ ưu tiên, lỗi đồng bộ, lộ dữ liệu cá nhân | Giảm rủi ro bằng cách giữ nguồn gốc thông báo, yêu cầu người dùng xác nhận deadline, giới hạn quyền truy cập và cho phép quay về chế độ Rule + Manual. |
+
+**Nhận xét:**
+
+Quy trình To-Be được kỳ vọng giảm thao tác kiểm tra thủ công và thời gian tìm kiếm thông báo, nhưng không loại bỏ hoàn toàn vai trò của người học.
+
+Việc ứng dụng Workflow và Rule giúp tự động hóa những thao tác có quy tắc rõ ràng, trong khi AI chỉ hỗ trợ tóm tắt, phân loại và trích xuất deadline. Người dùng vẫn giữ quyền xác nhận thông tin trước khi tạo lịch nhắc.
+
+**Success Metrics đề xuất cho MVP:**
+
+1. **Thời gian xử lý thông báo:** Giảm thời gian kiểm tra và tổng hợp từ mức baseline ban đầu 15–20 phút/ngày xuống mục tiêu 5–10 phút/ngày.
+2. **Deadline Extraction Accuracy:** Ít nhất 90% deadline được trích xuất chính xác trên tập dữ liệu thử nghiệm có nhãn.
+3. **Important Notification Recall:** Phát hiện ít nhất 95% thông báo quan trọng trong tập thử nghiệm, ưu tiên hạn chế bỏ sót.
+4. **User Confirmation:** 100% deadline do AI đề xuất phải được người dùng xác nhận trước khi tạo lịch nhắc chính thức.
 
 ---
 
@@ -191,18 +450,30 @@ flowchart TD
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | Học viên một lớp ~85 người, học nhiều môn/khóa cùng lúc |
-| **Quy trình** | Mỗi ngày mở LMS (1') → email (5') → group chat (15') → chép lịch, hỏi bạn xác nhận (~9') |
-| **Bottleneck** | Lọc thông báo chính thức của lead/coach ra khỏi tin hỏi đáp của học viên trong group chat (~15 phút/ngày) |
-| **Impact** | ~30 phút/ngày (~3,5 giờ/tuần) mỗi học viên; luôn lo bỏ sót; hỏi bạn bè ~4 lần/tuần để xác nhận |
-| **Success Metric** (baseline → target, cách đo) | Thời gian kiểm tra deadline: 30 → ≤ 5 phút/ngày; số lần hỏi bạn về hạn nộp: ~4 → ≤ 1 lần/tuần. Đo bằng log tự ghi 1 tuần trước và 2 tuần pilot |
-| **Boundary** (AI không được làm gì; khi nào cần con người kiểm tra — HITL) | AI không được tự quyết hạn khi tin không ghi rõ, không xóa/bỏ qua tin, không đăng/trả lời trong group. Con người phải kiểm tra: mọi tin **đổi hạn**, mọi mục **KHÔNG RÕ**, và trước khi bảng được gửi cho lớp |
+| **Actor** | Sinh viên/học viên tham gia chương trình đào tạo có nhiều hoạt động như workshop, standup, lab và teamwork; thường xuyên nhận thông báo từ Discord, Gmail, Outlook, Phoenix và Zalo. |
+| **Quy trình** | Người học phải chủ động mở từng nền tảng để kiểm tra thông báo, đọc và xác định nội dung quan trọng, tìm deadline, hỏi lại bạn học hoặc lab-coach nếu thông tin chưa rõ, sau đó tự ghi nhớ hoặc nhập lịch nhắc thủ công. |
+| **Bottleneck** | Thông báo học tập và deadline bị phân tán trên nhiều nền tảng, không có điểm tổng hợp thống nhất. Người học phải chuyển đổi giữa các ứng dụng, tự lọc thông tin quan trọng và nhập deadline thủ công. Những thông báo yêu cầu hành động gấp có nguy cơ bị bỏ sót. |
+| **Impact** | Tốn thời gian kiểm tra và tổng hợp thông báo; tăng tải nhận thức khi phải theo dõi nhiều nguồn; có nguy cơ bỏ lỡ email quan trọng, deadline hoặc yêu cầu xác nhận. Trong phỏng vấn ban đầu, một người tham gia cho biết mất khoảng 15–20 phút/ngày, đôi khi 30 phút, và từng suýt bỏ lỡ email Outlook có hạn xác nhận lúc 18h. |
+| **Success Metric (baseline → target, cách đo)** | **Metric 1 — Thời gian kiểm tra và tổng hợp:** Baseline ban đầu 15–20 phút/ngày (ước tính của 1 người tham gia) → mục tiêu 5–10 phút/ngày. Đo bằng nhật ký thời gian hoặc quan sát người dùng thực hiện cùng một tập tác vụ trước/sau MVP. <br><br> **Metric 2 — Độ chính xác trích xuất deadline:** Baseline chưa đo → mục tiêu ≥90% deadline được trích xuất chính xác. Đo trên tập thông báo được gán nhãn thủ công, so sánh ngày, giờ và ngữ cảnh deadline với kết quả hệ thống. <br><br> **Metric 3 — Khả năng phát hiện thông báo quan trọng:** Baseline chưa đo → mục tiêu Recall ≥95%. Đo bằng số thông báo quan trọng được hệ thống phát hiện chia cho tổng số thông báo quan trọng trong tập kiểm thử đã gán nhãn. <br><br> **Metric 4 — Kiểm soát của người dùng:** Baseline chưa đo → mục tiêu 100% deadline do AI đề xuất được người dùng xác nhận trước khi tạo lịch nhắc chính thức. Đo bằng log thao tác xác nhận trên MVP. |
+| **Boundary (AI không được làm gì; khi nào cần con người kiểm tra — HITL)** | AI chỉ hỗ trợ tóm tắt, phân loại thông báo, trích xuất deadline và đề xuất mức độ ưu tiên. **Không được** tự bịa hoặc thay đổi deadline, tự gửi email/tin nhắn, xác nhận thông tin, nộp bài hoặc truy cập dữ liệu chưa được cấp quyền. **HITL:** Người dùng phải kiểm tra và xác nhận deadline trước khi tạo lịch nhắc; khi thông tin thiếu, mơ hồ, mâu thuẫn hoặc AI không xử lý được, hệ thống hiển thị thông báo gốc và chuyển sang xác minh thủ công. MVP chỉ sử dụng dữ liệu được cung cấp hoặc truy cập hợp lệ, không giả định tích hợp được toàn bộ 5 nền tảng. |
 
-Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
+### Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không
 
-- "Metric 30 phút là ước lượng của 1 người" → Đồng ý; cần log 1 tuần và phỏng vấn để có baseline thật.
-- "Lớp đã có kênh thông báo riêng, sao không bắt buộc dùng?" → Đồng ý một phần; giữ làm phương án No AI, nhưng đã thử mà không hiệu quả vì phụ thuộc thói quen người đăng.
-- "Bottleneck chuyển sang người xác nhận" → Đồng ý; bổ sung vào Problem Statement v1 (rủi ro & người kiểm tra).
+**Phản biện đề xuất từ AI (nhóm cần thảo luận và xác nhận):**
+
+- **Phản biện 1:** Phạm vi tích hợp cả Discord, Gmail, Outlook, Phoenix và Zalo có thể quá lớn đối với MVP, đặc biệt khi một số nền tảng chưa xác minh được khả năng truy cập dữ liệu hợp lệ.
+  - **Đề xuất xử lý:** Đồng ý thu hẹp MVP. Trước tiên thử nghiệm với dữ liệu thông báo do người dùng dán hoặc nhập thủ công; sau đó mở rộng sang những nền tảng có phương thức tích hợp được phép.
+
+- **Phản biện 2:** Mục tiêu giảm thời gian từ 15–20 phút xuống 5–10 phút/ngày chưa đủ bằng chứng, vì hiện chỉ có dữ liệu tự ước tính của một người tham gia.
+  - **Đề xuất xử lý:** Giữ đây là mục tiêu giả thuyết, không trình bày như kết quả đã đạt được. Tiếp tục phỏng vấn và đo thời gian thực tế trong thử nghiệm MVP.
+
+- **Phản biện 3:** AI có thể nhận diện sai deadline, đặc biệt với những thông báo dùng cách diễn đạt mơ hồ như "cuối ngày", "trước buổi học tiếp theo" hoặc không ghi rõ ngày.
+  - **Đề xuất xử lý:** Đồng ý cần cơ chế Human-in-the-loop. AI chỉ đề xuất deadline; người dùng xác nhận trước khi tạo lịch nhắc. Nếu thông tin không rõ, hệ thống đánh dấu "Cần xác minh".
+
+- **Phản biện 4:** Nếu chỉ tổng hợp thông báo và tạo lịch nhắc, giải pháp có thể trùng với Google Calendar, Microsoft To Do hoặc Notion.
+  - **Đề xuất xử lý:** Làm rõ giá trị khác biệt cần kiểm chứng: giảm công sức đọc, tìm kiếm và chuyển đổi thông báo học tập thành các công việc cần hành động, thay vì chỉ cung cấp thêm một ứng dụng lịch.
+
+**Trạng thái phản biện:** Các nội dung trên là phản biện do AI đề xuất và hướng xử lý gợi ý, chưa phải ý kiến chính thức được nhóm thống nhất. Nhóm cần xác nhận mức độ đồng ý trước khi đưa vào bản nộp cuối cùng.
 
 ---
 
@@ -210,38 +481,114 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô: **Độ mơ hồ trung bình × Độ phức tạp thấp**
+**1. Độ mơ hồ cao (High Ambiguity):**
 
-Vì sao: Các bước cố định, lặp lại mỗi ngày (phức tạp thấp). Nhưng thông báo viết tự do ("lùi sang CN", "như cũ nhé") nên cần hiểu ngôn ngữ, Rule thuần không bắt hết (mơ hồ trung bình).
+- Thông báo học tập được viết dưới nhiều hình thức khác nhau: email, tin nhắn, thông báo hệ thống và trao đổi nhóm.
+- Deadline không phải lúc nào cũng được ghi rõ. Ví dụ: "Nộp trước buổi học tiếp theo", "Hoàn thành trong hôm nay", "Xác nhận trước 18h".
+- Một thông báo có thể chứa nhiều yêu cầu, nhiều mốc thời gian hoặc thông tin chưa đầy đủ.
+- Mức độ quan trọng của thông báo phụ thuộc vào ngữ cảnh học tập và vai trò của từng sinh viên.
+- Cần phân biệt thông báo chính thức, trao đổi thông thường và những nội dung yêu cầu hành động.
+
+**2. Độ phức tạp cao (High Complexity):**
+
+- Thông tin phân tán trên Discord, Gmail, Outlook, Phoenix và Zalo, mỗi nền tảng có cách tổ chức và khả năng truy cập dữ liệu khác nhau.
+- Cần thực hiện nhiều công đoạn: tiếp nhận dữ liệu, chuẩn hóa, lọc trùng, phân loại, trích xuất deadline và hiển thị kết quả.
+- Có thể xuất hiện thông báo trùng lặp, cập nhật deadline hoặc mâu thuẫn giữa các nguồn.
+- Hệ thống cần bảo đảm quyền riêng tư, kiểm soát quyền truy cập và khả năng truy vết về thông báo gốc.
+- Khi AI xử lý sai hoặc không hoạt động, hệ thống vẫn phải cho phép người dùng kiểm tra và nhập thông tin thủ công.
+
+**Kết luận:**
+
+Bài toán có cả độ mơ hồ và độ phức tạp cao nếu xét toàn bộ quy trình đa nền tảng. Tuy nhiên, không phải mọi công đoạn đều cần AI.
+
+- **Workflow:** Tiếp nhận và chuyển dữ liệu giữa các bước.
+- **Rule:** Chuẩn hóa, lọc trùng rõ ràng, kiểm tra định dạng và tạo nhắc lịch.
+- **AI:** Phân tích nội dung ngôn ngữ tự nhiên, tóm tắt, phân loại và đề xuất deadline.
+- **Human-in-the-loop:** Xác minh những thông tin quan trọng, mơ hồ hoặc có nguy cơ sai lệch.
+
+Vì vậy, nhóm đề xuất mô hình kết hợp **Workflow + Rule + AI + Human-in-the-loop**, thay vì sử dụng AI để tự động hóa toàn bộ quy trình.
+
+**Lưu ý về MVP:** Khi thu hẹp phạm vi sang xử lý thông báo do người dùng cung cấp thủ công, độ phức tạp tích hợp sẽ giảm. Nhóm cần đánh giá lại ma trận sau khi xác định phạm vi MVP và kiểm chứng các giả định kỹ thuật.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | Bắt buộc lead chỉ đăng thông báo ở kênh riêng; đồng bộ lịch LMS sang Google Calendar | Lead luôn tuân thủ | Lớp đã có kênh riêng nhưng ít dùng → phụ thuộc thói quen | Giữ làm nền + phương án quay về |
-| **Rule** | Gmail filter; lọc tin group theo người gửi + từ khóa | Thông báo viết theo mẫu rõ ràng | Bỏ sót tin viết tự do, tin đổi hạn, tin coach được học viên trích lại | Dùng cho bước lọc |
-| **Workflow** | Rule lọc → AI trích Việc/Hạn/Đổi hạn/Câu gốc → người xác nhận → bảng tuần | Thông báo viết tự do, cần hiểu nội dung | AI sai/bỏ sót; cần người xác nhận | **Chọn** |
-| **Agent** | AI tự đọc mọi kênh, tự quyết nhắc ai, tự cập nhật lịch | Khi các bước không định trước được | Không cần: các bước đã cố định; rủi ro tự đăng/sửa sai | Không |
+| **No AI** (sửa quy trình) | Thống nhất một kênh thông báo chính, yêu cầu sinh viên tự ghi deadline vào Google Calendar, Notion hoặc bảng theo dõi chung. | Khi số lượng thông báo ít, nguồn thông tin ổn định và người học có thể tự tổng hợp mà không mất nhiều thời gian. | Vẫn phải kiểm tra nhiều nền tảng, nhập deadline thủ công và phụ thuộc vào thói quen cá nhân; có nguy cơ bỏ sót thông báo. | **Không chọn làm giải pháp chính**, nhưng sử dụng làm phương án đối chứng (baseline). |
+| **Rule** | Lọc thông báo theo từ khóa như "deadline", "nộp bài", "xác nhận", "trước ngày"; nhận diện định dạng ngày giờ rõ ràng và tạo danh sách thông báo cần kiểm tra. | Khi thông báo có cấu trúc tương đối thống nhất, từ khóa rõ ràng và deadline được viết theo định dạng cố định. | Dễ bỏ sót cách diễn đạt không chứa từ khóa; khó hiểu ngữ cảnh, thời hạn tương đối hoặc nhiều yêu cầu trong cùng một thông báo. | **Chọn làm thành phần hỗ trợ**, dùng để lọc, kiểm tra định dạng và xử lý những trường hợp đơn giản. |
+| **Workflow** | Xây dựng quy trình tiếp nhận thông báo từ nguồn hợp lệ hoặc dữ liệu người dùng cung cấp → chuẩn hóa → lọc bằng Rule → dùng AI để tóm tắt, phân loại và đề xuất deadline → người dùng xác nhận → hiển thị trên dashboard và tạo lịch nhắc. | Khi cần xử lý nhiều công đoạn theo trình tự xác định, có thể kiểm soát đầu vào/đầu ra và yêu cầu người dùng xác nhận trước hành động quan trọng. | Phụ thuộc vào chất lượng dữ liệu, khả năng tích hợp, độ chính xác của AI và thiết kế các bước kiểm tra. | **CHỌN — Mức can thiệp chính**, kết hợp Rule + AI + Human-in-the-loop. |
+| **Agent** | Sử dụng AI Agent tự lựa chọn công cụ, truy cập các nền tảng được cấp quyền, tìm kiếm thông báo, lập kế hoạch và chủ động thực hiện các hành động liên quan đến deadline. | Khi bài toán có nhiều bước thay đổi linh hoạt, không thể xác định trước luồng xử lý và thực sự cần AI tự quyết định cách sử dụng công cụ. | Khó kiểm soát hành động, có thể suy luận sai deadline, truy cập dữ liệu ngoài phạm vi, tạo tác vụ sai; chi phí và độ phức tạp triển khai cao. | **Chưa chọn**, vì MVP chưa cần quyền tự chủ cao và rủi ro vượt quá lợi ích kỳ vọng. |
 
-**Mức chọn:** Workflow
+**Mức chọn:** **Workflow kết hợp Rule + AI hỗ trợ + Human-in-the-loop (HITL).**
 
-**Vì sao không chọn mức đơn giản hơn:** No AI đã được thử (kênh thông báo riêng) nhưng không hiệu quả vì đa số thông báo vẫn đăng ở nhóm đông người. Rule lọc được người gửi nhưng không hiểu được tin viết tự do và tin đổi hạn — đúng loại tin gây bỏ sót. ⟨Nên bổ sung bằng chứng: thử Rule từ khóa trên ~20 tin thật và đếm số tin bị bỏ sót⟩
+**Vì sao chọn mức này:**
+
+1. Quy trình tổng hợp thông báo có các bước tương đối rõ ràng: tiếp nhận dữ liệu, chuẩn hóa, lọc, phân tích, xác nhận và tạo lịch nhắc. Vì vậy, Workflow có thể điều phối các bước mà không cần Agent tự chủ.
+2. Rule phù hợp để xử lý những thông báo có cấu trúc rõ ràng, giúp giảm số trường hợp phải sử dụng AI.
+3. AI có giá trị ở những bước cần hiểu ngôn ngữ tự nhiên như tóm tắt nội dung, nhận diện yêu cầu cần hành động và trích xuất deadline.
+4. Human-in-the-loop giúp người dùng kiểm tra và xác nhận các thông tin quan trọng trước khi tạo lịch nhắc chính thức.
+5. Workflow cho phép theo dõi từng bước, kiểm thử riêng từng thành phần và quay về chế độ Rule + Manual khi AI không hoạt động.
+
+**Vì sao không chọn mức đơn giản hơn:**
+
+- **No AI:** Có thể cải thiện cách tổ chức thông tin nhưng chưa giải quyết đầy đủ thao tác đọc, tìm kiếm và tổng hợp thông báo từ nhiều nguồn. Đây là phương án đối chứng cần thử nghiệm, không phải phương án bị loại bỏ hoàn toàn.
+- **Chỉ dùng Rule:** Khó xử lý thông báo viết bằng ngôn ngữ tự nhiên, deadline tương đối hoặc những yêu cầu không chứa từ khóa cố định.
+- **Workflow không có AI:** Có thể tự động hóa việc chuyển và hiển thị dữ liệu, nhưng khả năng trích xuất thông tin từ các thông báo phi cấu trúc vẫn hạn chế. Nhóm cần thử nghiệm để xác định AI có thực sự cải thiện kết quả so với Rule-only hay không.
+
+**Vì sao không chọn Agent:**
+
+Bài toán hiện tại chưa yêu cầu AI tự lập kế hoạch hoặc tự quyết định chuỗi hành động phức tạp. Việc sử dụng Agent có thể làm tăng chi phí, độ phức tạp và rủi ro đối với thông tin quan trọng như deadline.
+
+**Định hướng MVP:**
+
+- Đầu vào: Thông báo mẫu do người dùng cung cấp.
+- Rule: Lọc từ khóa, chuẩn hóa dữ liệu và kiểm tra định dạng.
+- AI: Tóm tắt, nhận diện công việc và trích xuất deadline đề xuất.
+- HITL: Người dùng xác nhận hoặc chỉnh sửa kết quả.
+- Đầu ra: Danh sách công việc và deadline trên dashboard.
+- Fallback: Khi AI lỗi hoặc không chắc chắn, hiển thị thông báo gốc và cho phép nhập thủ công.
+
+**Kết luận:** Nhóm lựa chọn mức Workflow vì phù hợp với quy trình có thể xác định trước, đồng thời tích hợp AI tại những bước cần xử lý ngôn ngữ tự nhiên. Đây là phương án đề xuất để kiểm chứng trong MVP, chưa phải kết luận rằng AI chắc chắn hiệu quả hơn các giải pháp đơn giản.
 
 ### 6.3. AI Canvas rút gọn
 
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | Từ mỗi tin đã lọc: việc cần làm, hạn (ngày giờ), có phải đổi hạn không, câu gốc trích nguyên văn |
-| **Judgment** — con người cân nhắc, quyết định gì? | Hạn trích ra có đúng không; tin đổi hạn có thay thế hạn cũ không; mục "KHÔNG RÕ" cần hỏi lại lead không |
-| **Action** — hành động cuối cùng là gì, ai làm? | Người phụ trách xác nhận và cập nhật bảng deadline tuần; học viên xem bảng |
-| **Outcome** — đo kết quả bằng gì? | Phút/ngày kiểm tra deadline; số lần hỏi bạn/tuần; số deadline bị bỏ sót trên bảng |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | Tin nhắn group + email đã lọc trong ngày. Email lọc được bằng Gmail filter; group chat chưa có cách lấy tự động đã xác minh → pilot copy thủ công |
-| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Lỗi người xác nhận sửa; học viên báo "thiếu/sai" trên bảng → cập nhật Rule và prompt |
+| **Prediction** — AI dự đoán / tạo ra gì? | AI phân tích nội dung thông báo học tập để: (1) phân loại thông báo có yêu cầu hành động hay không; (2) tóm tắt nội dung chính; (3) trích xuất công việc cần thực hiện và deadline nếu có; (4) đề xuất mức độ ưu tiên; (5) đánh dấu thông tin thiếu hoặc mơ hồ cần xác minh. Kết quả phải kèm nội dung nguồn để người dùng đối chiếu, không tự tạo deadline khi không có đủ căn cứ. |
+| **Judgment** — con người cân nhắc, quyết định gì? | Sinh viên/học viên kiểm tra xem thông báo có liên quan đến mình không, nội dung AI trích xuất có chính xác không, deadline có đúng với thông báo gốc không và có cần tạo lịch nhắc hay không. Với thông tin mâu thuẫn, thiếu ngày giờ hoặc yêu cầu quan trọng, người dùng phải xác minh trước khi quyết định. |
+| **Action** — hành động cuối cùng là gì, ai làm? | Sau khi người dùng xác nhận, hệ thống tạo nhiệm vụ và lịch nhắc theo quy tắc đã thiết lập, hiển thị trên dashboard tập trung. Người dùng quyết định thực hiện, chỉnh sửa, bỏ qua hoặc đánh dấu hoàn thành công việc. AI không tự gửi email, xác nhận thông tin, nộp bài hoặc thực hiện hành động thay người dùng. |
+| **Outcome** — đo kết quả bằng gì? | **(1)** Thời gian kiểm tra và tổng hợp thông báo: baseline ban đầu 15–20 phút/ngày theo 1 người phỏng vấn → mục tiêu 5–10 phút/ngày. **(2)** Deadline Extraction Accuracy ≥90% trên tập dữ liệu có nhãn. **(3)** Important Notification Recall ≥95% trên tập thông báo được gán nhãn. **(4)** 100% deadline do AI đề xuất được người dùng xác nhận trước khi tạo lịch nhắc chính thức. Các ngưỡng này là mục tiêu thử nghiệm, chưa phải kết quả đạt được. |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | **Dữ liệu cần thiết:** Nội dung thông báo gốc, nguồn gửi (Discord, Gmail, Outlook, Phoenix, Zalo), thời gian gửi/nhận, ngữ cảnh liên quan nếu được phép sử dụng và đường dẫn tham chiếu nếu có. **Tình trạng dữ liệu:** Có thể thu thập dữ liệu mẫu do người dùng tự cung cấp hoặc dán thủ công để thử nghiệm MVP. Chưa xác minh khả năng truy cập tự động hợp lệ với cả 5 nền tảng. Cần tạo tập dữ liệu thử nghiệm được gán nhãn về mức độ quan trọng, công việc và deadline để đánh giá AI. |
+| **Feedback** — lấy phản hồi ở đâu để cải thiện? | Thu thập phản hồi từ thao tác xác nhận, chỉnh sửa hoặc từ chối kết quả AI của người dùng; ghi nhận trường hợp trích xuất sai deadline, bỏ sót thông báo quan trọng hoặc phân loại sai. Trong thử nghiệm MVP, so sánh đầu ra AI với nhãn do con người kiểm tra để tính Accuracy và Recall. Phân tích các lỗi thường gặp để cải thiện prompt, rule và quy trình. Chỉ sử dụng dữ liệu phản hồi cho mục đích cải thiện khi có sự đồng ý phù hợp của người dùng. |
+
+#### Luồng ra quyết định theo AI Canvas
+
+1. **Input:** Người dùng cung cấp thông báo học tập hoặc hệ thống nhận dữ liệu từ nguồn được cấp quyền.
+2. **Prediction:** AI phân tích thông báo, xác định công việc, deadline và mức độ ưu tiên đề xuất.
+3. **Judgment:** Người dùng kiểm tra thông báo gốc, xác nhận hoặc chỉnh sửa kết quả.
+4. **Action:** Workflow tạo nhiệm vụ và lịch nhắc sau khi được xác nhận.
+5. **Outcome:** Đánh giá thời gian xử lý, khả năng phát hiện thông báo quan trọng và độ chính xác deadline.
+6. **Feedback:** Ghi nhận lỗi và chỉnh sửa để cải thiện hệ thống trong những lần thử nghiệm tiếp theo.
+
+**Nguyên tắc thiết kế:** AI hỗ trợ người dùng ra quyết định (augment), không thay thế quyền quyết định của người dùng (automate). Mọi deadline quan trọng phải được xác minh trước khi tạo lịch nhắc chính thức.
+
+**Phạm vi MVP:** Thử nghiệm trước với thông báo mẫu được cung cấp thủ công. Tích hợp tự động với các nền tảng sẽ được xem xét sau khi xác minh tính khả thi kỹ thuật, quyền truy cập và yêu cầu bảo vệ dữ liệu.
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: **Augment.** Người đề xuất hiện vẫn phải hỏi bạn bè để xác nhận dù đã tự xem → cần có câu gốc để tự kiểm, không tin hoàn toàn vào một nguồn. ⟨Bổ sung bằng chứng từ phỏng vấn⟩
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: **Bỏ sót tệ hơn** — bỏ sót một deadline có thể mất điểm, còn báo nhầm chỉ tốn vài giây kiểm tra. Thiết kế: Rule lọc rộng (thà lấy thừa), AI được yêu cầu không bỏ qua tin có từ khóa, mục không chắc ghi "KHÔNG RÕ" thay vì bỏ, mọi mục kèm câu gốc.
+- **Người dùng muốn được hỗ trợ (augment) hay giao hẳn việc (automate)? Bằng chứng:**
+
+  Nhóm nghiêng về hướng Augment, tức là AI hỗ trợ người dùng thay vì tự quyết định toàn bộ. Qua phỏng vấn, có học viên từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h và chỉ kịp biết nhờ bạn bè nhắc. Điều này cho thấy người học cần được hỗ trợ phát hiện thông báo quan trọng, chứ chưa chứng minh rằng họ muốn giao toàn bộ việc quản lý deadline cho AI.
+
+  Vì vậy, nhóm đề xuất AI hỗ trợ tổng hợp, phân loại thông báo và trích xuất deadline. Người dùng vẫn kiểm tra, chỉnh sửa và xác nhận trước khi tạo lịch nhắc. Đây là lựa chọn thiết kế ban đầu, cần tiếp tục kiểm chứng với người dùng.
+
+- **AI sai kiểu nào tệ hơn, báo nhầm hay bỏ sót? Vì sao, và thiết kế đã xử lý thế nào:**
+
+  Theo nhóm, bỏ sót (False Negative) nghiêm trọng hơn vì người dùng có thể không biết mình đã bỏ lỡ một thông báo quan trọng hoặc deadline cần xác nhận. Trong khi đó, báo nhầm (False Positive) chủ yếu khiến người dùng mất thêm thời gian kiểm tra và có thể gây phiền nếu xuất hiện quá nhiều.
+
+  Để hạn chế bỏ sót, nhóm đề xuất ưu tiên phát hiện các thông báo có deadline hoặc yêu cầu hành động, đồng thời cho phép người dùng xem lại danh sách thông báo gốc. Với những thông báo chưa xác định rõ thời hạn, AI phải đánh dấu cần kiểm tra thay vì tự suy đoán ngày giờ. Người dùng có quyền xác nhận hoặc sửa kết quả trước khi hệ thống tạo nhắc nhở.
+
+  Khi thử nghiệm MVP, nhóm sẽ đo cả Recall (tỷ lệ phát hiện đúng thông báo quan trọng) và Precision (tỷ lệ thông báo được đánh dấu quan trọng thực sự đúng), để tránh việc giảm bỏ sót nhưng lại tạo quá nhiều cảnh báo không cần thiết.
 
 ---
 
@@ -249,35 +596,36 @@ Vì sao: Các bước cố định, lặp lại mỗi ngày (phức tạp thấp
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | Học viên một lớp ~85 người; người phụ trách xác nhận bảng (lớp trưởng hoặc luân phiên) |
-| **Quy trình** | Rule lọc email + tin group của lead → AI trích deadline → người xác nhận → bảng deadline tuần → học viên xem |
-| **Bottleneck** | Lọc thông báo chính thức ra khỏi tin hỏi đáp trong group chat (~15 phút/ngày mỗi học viên) |
-| **Impact** | ~30 phút/ngày (~3,5 giờ/tuần) mỗi học viên; lo bỏ sót; hỏi bạn ~4 lần/tuần |
-| **Success Metric** (baseline → target, cách đo) | Thời gian kiểm tra: 30 → ≤ 5 phút/ngày; hỏi bạn: ~4 → ≤ 1 lần/tuần; **số deadline bỏ sót trên bảng: 0**. Đo bằng log 1 tuần trước + 2 tuần pilot với 5–10 học viên |
-| **Boundary** | AI không tự quyết hạn khi tin không rõ, không xóa/bỏ qua tin, không đăng trong group. Người xác nhận bắt buộc kiểm tra mọi tin đổi hạn và mục KHÔNG RÕ trước khi gửi bảng |
-| **AI intervention point** | Bước 3 — sau khi Rule lọc tin, AI chỉ trích Việc/Hạn/Đổi hạn/Câu gốc |
-| **Mức chọn** | Workflow |
-| **Rủi ro & người kiểm tra** | Rủi ro: AI bỏ sót/sai hạn; học viên tin bảng mù quáng; dồn việc lên người xác nhận (~10 phút/ngày). Người kiểm tra: lớp trưởng hoặc luân phiên theo tuần |
+| **Actor** | Học viên phải theo dõi thông báo học tập và deadline từ ít nhất 2 nền tảng như Discord, Gmail, Outlook, Phoenix và Zalo. |
+| **Quy trình** | Học viên mở từng nền tảng → đọc thông báo → xác định nội dung quan trọng → tìm deadline → tự ghi nhớ hoặc tạo lịch nhắc → kiểm tra lại khi cần. |
+| **Bottleneck** | Thông báo phân tán ở nhiều nền tảng, người học phải kiểm tra thủ công và tự xác định nội dung nào cần hành động. Những deadline nằm trong email hoặc tin nhắn dài dễ bị bỏ sót. |
+| **Impact** | Theo một trường hợp phỏng vấn, việc kiểm tra mất khoảng 15–20 phút/ngày, đôi khi 30 phút. Người được hỏi từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h. |
+| **Success Metric (baseline → target, cách đo)** | **Thời gian xử lý:** baseline 15–20 phút/ngày (tự báo cáo) → mục tiêu giảm ít nhất 30% khi sử dụng MVP; đo bằng thời gian hoàn thành cùng một tập tác vụ thủ công và có hỗ trợ. **Recall thông báo quan trọng:** baseline chưa đo → mục tiêu ≥ 95%; so sánh với nhãn chuẩn do người kiểm tra xác nhận. **Độ chính xác trích xuất deadline:** baseline chưa đo → mục tiêu ≥ 90%; đối chiếu ngày, giờ và yêu cầu hành động với dữ liệu chuẩn. |
+| **Boundary** | MVP chỉ xử lý thông báo mẫu hoặc nội dung do người dùng chủ động nhập. Chưa tự động đọc tài khoản Gmail, Outlook, Discord, Phoenix hay Zalo; chưa tự gửi email, xác nhận đăng ký hoặc thay người dùng thực hiện hành động quan trọng. Không tự suy đoán deadline khi nội dung không rõ ràng. |
+| **AI intervention point** | Sau khi nhận nội dung thông báo, AI hỗ trợ phân loại mức độ quan trọng, nhận diện yêu cầu hành động và trích xuất deadline. Kết quả được hiển thị để người dùng kiểm tra, chỉnh sửa và xác nhận. |
+| **Mức chọn** | **Workflow** – kết hợp các bước xử lý cố định, rule và AI để phân tích thông báo; người dùng xác nhận đầu ra. Không sử dụng Agent tự chủ trong MVP. |
+| **Rủi ro & người kiểm tra** | Rủi ro chính gồm bỏ sót deadline, nhận diện sai ngày giờ, cảnh báo nhầm và lộ thông tin cá nhân. Người dùng kiểm tra, xác nhận kết quả trước khi lưu hoặc tạo nhắc nhở. Nhóm phát triển kiểm tra lỗi và đánh giá chất lượng trên bộ dữ liệu thử nghiệm đã loại bỏ thông tin nhạy cảm. |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| Actor | Chỉ học viên | Thêm người phụ trách xác nhận | Quy trình tương lai dời việc kiểm tra sang 1 người; phải ghi rõ ai chịu tải |
-| Success Metric | Phút/ngày + số lần hỏi bạn | Thêm "số deadline bỏ sót = 0" | PAIR: bỏ sót là lỗi tệ nhất, phải đo trực tiếp |
-| Quy trình | Quy trình hiện tại | Quy trình có Rule + AI + người xác nhận | Đã chọn mức Workflow |
+| Actor | Học viên nhận thông báo từ nhiều nguồn. | Học viên theo dõi từ ít nhất 2 nền tảng học tập. | Xác định rõ nhóm người dùng mục tiêu, tránh phạm vi quá rộng. |
+| Bottleneck | Thông báo nằm rải rác ở nhiều nền tảng. | Khó phát hiện thông báo cần hành động và deadline quan trọng. | Kết quả phỏng vấn cho thấy nguy cơ bỏ lỡ yêu cầu xác nhận đúng hạn. |
+| Impact | Mất thời gian và có thể bỏ sót thông báo. | Ghi nhận 15–20 phút/ngày ở một người phỏng vấn và một tình huống suýt bỏ lỡ deadline. | Chuyển nhận định chung thành bằng chứng cụ thể, đồng thời nêu rõ giới hạn mẫu. |
+| Success Metric | Chưa có chỉ số đo cụ thể. | Đo thời gian xử lý, Recall và độ chính xác trích xuất deadline. | Cần tiêu chí định lượng để đánh giá MVP thay vì chỉ dựa vào cảm nhận. |
+| Boundary | Hướng tới tổng hợp thông báo từ nhiều nền tảng. | Chỉ xử lý thông báo mẫu hoặc nội dung nhập thủ công. | Giảm độ phức tạp và rủi ro quyền truy cập dữ liệu, phù hợp thời gian lab. |
+| AI intervention point | Dùng AI để tổng hợp và quản lý thông báo. | AI phân loại, trích xuất deadline; người dùng xác nhận. | Xác định rõ AI hỗ trợ ở bước nào và tránh tự động hóa vượt nhu cầu. |
+| Mức chọn | Chưa xác định rõ. | Workflow kết hợp Rule và AI. | Dễ triển khai, kiểm thử và so sánh với No AI, Rule và Agent. |
 
 **Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | Không bỏ sót | 100% tin có deadline trong bộ test xuất hiện trên bảng | Thiếu ≥ 1 deadline |
-| 2 | Đúng hạn | Ngày giờ khớp tin gốc ở ≥ 95% mục | Sai ngày/giờ so với tin gốc |
-| 3 | Bắt được đổi hạn | Tin đổi hạn được đánh dấu và dùng hạn mới | Giữ hạn cũ hoặc tạo 2 mục trùng |
-| 4 | Không bịa | Tin không rõ hạn được ghi "KHÔNG RÕ" | Tự điền một hạn không có trong tin |
-| 5 | Truy được nguồn | Mỗi mục có câu gốc trích nguyên văn | Thiếu câu gốc hoặc câu gốc không khớp |
-
-Bộ test đề xuất: ~20 tin thật từ group lớp (đã che tên), gồm tin rõ hạn, tin viết tự do, tin đổi hạn, tin không liên quan.
+| 1 | Phát hiện thông báo quan trọng (Recall) | Recall ≥ 95% trên bộ dữ liệu kiểm thử có nhãn chuẩn. | Recall < 95%, bỏ sót nhiều thông báo cần hành động. |
+| 2 | Phân loại đúng thông báo (Precision) | Precision ≥ 90% đối với nhóm thông báo quan trọng. | Precision < 90%, gây nhiều cảnh báo không cần thiết. |
+| 3 | Trích xuất deadline chính xác | ≥ 90% thông báo có deadline được trích xuất đúng đầy đủ ngày, giờ và ngữ cảnh thời hạn theo nhãn chuẩn. | Trích xuất sai ngày, giờ, thiếu thông tin quan trọng hoặc tự tạo deadline không tồn tại. |
+| 4 | Không tự suy đoán khi thiếu dữ liệu | 100% trường hợp thiếu ngày/giờ hoặc nội dung mơ hồ được đánh dấu "Cần xác nhận", không tự tạo thời hạn. | AI tự đưa ra thời hạn không có căn cứ trong thông báo. |
 
 ---
 
@@ -287,41 +635,98 @@ Bộ test đề xuất: ~20 tin thật từ group lớp (đã che tên), gồm t
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **Trung bình** | Dữ liệu rõ nhưng mới từ 1 người; cần phỏng vấn xác nhận người khác cũng mất ≥15 phút/ngày |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **Thấp** | Đầu ra là bảng 4 cột kèm câu gốc, dễ đọc và tự đối chiếu |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **Trung bình** | Email lọc được bằng Gmail filter; trích deadline làm được bằng LLM có sẵn; nhưng chưa có cách lấy tin group chat tự động → pilot copy thủ công |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **Trung bình** | Chi phí thấp (công cụ có sẵn); cần lead/coach đồng ý dùng nội dung group; cần người xác nhận ~10 phút/ngày |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **TB** | Phỏng vấn bước đầu ghi nhận học viên mất khoảng 15–20 phút/ngày để kiểm tra nhiều nền tảng và từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h. Điều này cho thấy vấn đề có tồn tại. Tuy nhiên, mới có bằng chứng từ một trường hợp, chưa đủ khẳng định nhiều học viên gặp vấn đề tương tự hoặc sẵn sàng sử dụng sản phẩm. |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | **TB** | Nhóm đề xuất giao diện cho phép xem thông báo gốc, kết quả AI phân loại, deadline được trích xuất và nút xác nhận/chỉnh sửa. Quy trình tương đối đơn giản nhưng chưa được thử nghiệm với người dùng thực tế. Cần kiểm tra xem học viên có hiểu kết quả AI và sửa được deadline sai hay không. |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | **TB** | MVP có thể xây dựng bằng Python, mô hình AI có sẵn và bộ thông báo mẫu do nhóm chuẩn bị. Không cần tích hợp API của tất cả nền tảng trong giai đoạn đầu. Tuy nhiên, nhóm chưa có bộ dữ liệu kiểm thử được gán nhãn đầy đủ và chưa chứng minh AI đạt mục tiêu Recall ≥ 95%, Precision ≥ 90% hay độ chính xác trích xuất deadline ≥ 90%. |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | **TB** | MVP sử dụng dữ liệu mẫu hoặc nội dung do người dùng chủ động cung cấp nên có thể hạn chế chi phí và rủi ro quyền truy cập. Tuy nhiên, thông báo học tập có thể chứa dữ liệu cá nhân; nhóm cần ẩn thông tin nhạy cảm, kiểm soát việc lưu trữ và không tự động truy cập tài khoản người dùng. Trong giai đoạn lab, nhóm phát triển chịu trách nhiệm vận hành và kiểm thử. Chi phí duy trì lâu dài chưa được đánh giá. |
 
 ### 8.2. Kết luận
 
-**Quyết định:** **Not Yet**
+**Quyết định:** **Not Yet** – Cần kiểm chứng thêm trước khi quyết định triển khai sản phẩm.
 
-**Lý do:** Bài toán rõ, quy trình và metric đo được, mức Workflow hợp lý. Nhưng rủi ro Value mới chỉ dựa trên 1 người, và chưa kiểm chứng Rule đơn giản có đủ không. Chưa nên đầu tư trước khi có 2 bằng chứng đó.
+**Lý do:**
 
-**Nếu Go — pilot nhỏ nhất:** 2 tuần, 5–10 học viên: một người copy tin của lead mỗi ngày vào LLM có sẵn với prompt trích deadline, xác nhận rồi ghi vào Google Sheet chung. Không xây app/bot.
+Nhóm nhận thấy vấn đề bỏ sót thông báo và deadline từ nhiều nền tảng có cơ sở thực tế. Qua phỏng vấn, một học viên cho biết mất khoảng 15–20 phút/ngày để kiểm tra thông báo và từng suýt bỏ lỡ email Outlook yêu cầu xác nhận trước 18h.
+
+Tuy nhiên, bằng chứng hiện tại còn hạn chế, chưa đủ khẳng định nhu cầu của nhiều học viên. Nhóm cũng chưa có kết quả thử nghiệm chứng minh AI có thể phân loại thông báo, trích xuất deadline chính xác và giúp giảm thời gian xử lý.
+
+Vì vậy, nhóm lựa chọn Not Yet, tiếp tục kiểm chứng bằng MVP nhỏ trước khi đầu tư phát triển hệ thống hoàn chỉnh.
+
+**Nếu Go — pilot nhỏ nhất:**
+
+Nếu các giả định được xác nhận, nhóm sẽ triển khai thử nghiệm với khoảng 5 học viên và 30–50 thông báo mẫu đã được gán nhãn.
+
+MVP cho phép người dùng dán nội dung thông báo, sau đó hệ thống phân loại mức độ quan trọng, trích xuất deadline và hiển thị kết quả để người dùng xác nhận hoặc chỉnh sửa.
+
+Nhóm so sánh ba phương pháp: No AI (thủ công), Rule (lọc từ khóa) và Workflow (Rule kết hợp AI).
+
+Mục tiêu thử nghiệm:
+- Giảm ít nhất 30% thời gian xử lý so với thủ công.
+- Recall phát hiện thông báo quan trọng ≥ 95%.
+- Precision phân loại thông báo quan trọng ≥ 90%.
+- Độ chính xác trích xuất deadline ≥ 90%.
+- Không tự tạo deadline khi thông tin không rõ ràng.
 
 **Nếu Not Yet — cần kiểm chứng gì trước:**
-1. Phỏng vấn/survey ≥ 5 học viên: ≥ 3 người mất ≥ 15 phút/ngày dò deadline → chuyển sang **Go** pilot.
-2. Thử Rule từ khóa trên ~20 tin thật: nếu Rule bỏ sót ≥ 2 deadline mà AI bắt được → giữ Workflow; nếu Rule bắt đủ → hạ xuống **Rule**, không cần AI.
 
-**Nếu No-Go — nên làm gì thay AI:** Đề nghị lead/coach đăng mọi thông báo deadline ở kênh thông báo riêng + đồng bộ lịch LMS sang Google Calendar.
+1. Phỏng vấn thêm ít nhất 4–5 học viên sử dụng từ 2 nền tảng trở lên để xác định tần suất gặp vấn đề và cách xử lý hiện tại.
+2. Chuẩn bị bộ 30–50 thông báo mẫu có nhãn chuẩn, bao gồm thông báo quan trọng, thông báo thông thường, deadline rõ ràng và deadline mơ hồ.
+3. Xây dựng prototype nhỏ để kiểm tra khả năng phân loại thông báo và trích xuất deadline.
+4. So sánh No AI, Rule và Workflow trên cùng bộ dữ liệu để đánh giá hiệu quả thực tế.
+5. Cho người dùng thử nghiệm thao tác xác nhận, chỉnh sửa kết quả AI và đo thời gian hoàn thành tác vụ.
 
-**Ngưỡng dừng:** Nếu sau 2 tuần pilot, thời gian kiểm tra trung bình không giảm xuống dưới 10 phút/ngày, **hoặc** bảng bỏ sót ≥ 1 deadline, **hoặc** dưới 5 học viên dùng bảng → dừng, quay về phương án No AI (kênh thông báo riêng + lịch chung).
+**Nếu No-Go — nên làm gì thay AI:**
+
+Nếu kết quả kiểm chứng cho thấy AI không mang lại hiệu quả đáng kể, nhóm có thể chuyển sang giải pháp đơn giản hơn như:
+
+- Sử dụng Google Calendar hoặc Microsoft To Do để quản lý deadline.
+- Xây dựng mẫu ghi chú và checklist thông báo quan trọng.
+- Sử dụng bộ lọc từ khóa hoặc quy tắc cố định để đánh dấu thông báo có deadline.
+- Hướng dẫn học viên thiết lập thông báo ưu tiên trên các nền tảng đang sử dụng.
+
+**Ngưỡng dừng (nếu sau … mà … thì quay về …):**
+
+Sau 2 vòng thử nghiệm MVP với cùng bộ tiêu chí đánh giá, nếu Workflow không giảm được ít nhất 30% thời gian xử lý so với No AI, hoặc Recall vẫn dưới 95%, hoặc độ chính xác trích xuất deadline dưới 90%, nhóm sẽ tạm dừng mở rộng AI và quay về phương án Rule hoặc quản lý deadline thủ công có cấu trúc.
+
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
+**Hạn chế hiện tại:**
 
-- Số liệu baseline là ước lượng của 1 người; cần log thật và phỏng vấn thêm.
-- Chưa xác minh cách lấy tin group chat (Zalo/Discord) tự động; pilot phải copy thủ công.
-- Chưa có sự đồng ý của lead/coach về việc dùng nội dung group chat.
-- Tiếp theo: phỏng vấn ≥ 5 học viên, thử Rule vs AI trên 20 tin thật, rồi quyết định lại Go/No-Go.
+- **Dữ liệu kiểm chứng còn ít:** Nhóm mới ghi nhận kết quả phỏng vấn từ một học viên, chưa đủ đại diện cho toàn bộ người học sử dụng nhiều nền tảng.
+- **Chưa có MVP được kiểm thử thực tế:** Nhóm mới xác định hướng giải pháp và các tiêu chí đánh giá, chưa có kết quả chứng minh AI giúp giảm thời gian hoặc hạn chế bỏ sót deadline.
+- **Chưa có bộ dữ liệu chuẩn:** Chưa xây dựng đầy đủ tập thông báo được gán nhãn để đo Precision, Recall và độ chính xác trích xuất deadline.
+- **Giới hạn về tích hợp nền tảng:** Discord, Gmail, Outlook, Phoenix và Zalo có cơ chế truy cập dữ liệu khác nhau. Việc tích hợp trực tiếp có thể gặp khó khăn về API, quyền truy cập và bảo mật.
+- **Rủi ro từ AI:** AI có thể phân loại sai mức độ quan trọng, bỏ sót deadline hoặc nhận diện nhầm ngày giờ, đặc biệt với thông báo có nội dung mơ hồ.
+- **Chưa đánh giá khả năng duy trì:** Nhóm chưa xác định đầy đủ chi phí vận hành, phương án bảo vệ dữ liệu và khả năng sử dụng lâu dài.
+
+**Hướng phát triển tiếp theo:**
+
+1. **Mở rộng phỏng vấn:** Phỏng vấn thêm 4–5 học viên sử dụng ít nhất 2 nền tảng để xác định mức độ phổ biến của vấn đề, tần suất bỏ sót thông báo và nhu cầu sử dụng công cụ.
+
+2. **Xây dựng bộ dữ liệu kiểm thử:** Thu thập 30–50 thông báo mẫu đã loại bỏ thông tin cá nhân, sau đó gán nhãn mức độ quan trọng, yêu cầu hành động và deadline.
+
+3. **Phát triển MVP nhỏ:** Xây dựng giao diện cho phép người dùng dán thông báo, AI phân loại và trích xuất deadline, sau đó người dùng kiểm tra, chỉnh sửa và xác nhận kết quả.
+
+4. **So sánh các phương pháp:** Thử nghiệm No AI, Rule và Workflow trên cùng bộ dữ liệu để xác định AI có thực sự mang lại giá trị so với giải pháp đơn giản hơn.
+
+5. **Đánh giá bằng chỉ số:** Đo Precision, Recall, độ chính xác trích xuất deadline và thời gian hoàn thành tác vụ. Mục tiêu đề xuất là Recall ≥ 95%, Precision ≥ 90%, độ chính xác deadline ≥ 90% và giảm ít nhất 30% thời gian xử lý.
+
+6. **Kiểm thử với người dùng:** Cho khoảng 5 học viên sử dụng MVP, quan sát khả năng hiểu, xác nhận và sửa kết quả AI, đồng thời ghi nhận phản hồi.
+
+7. **Ra quyết định sau kiểm chứng:** Nếu MVP đáp ứng các ngưỡng đề ra, nhóm xem xét chuyển sang Go và mở rộng tích hợp nền tảng. Nếu không đạt, nhóm ưu tiên cải thiện Rule hoặc sử dụng các công cụ quản lý deadline hiện có.
 
 ## 10. Tài liệu tham khảo
 
-- Gmail Help — Create rules to filter your emails: https://support.google.com/mail/answer/6579
-- Google Calendar Help — Add a calendar by URL: https://support.google.com/calendar/answer/37100
-- Gmail Help — Collaborate with Gemini in Gmail: https://support.google.com/mail/answer/14199860
-- Rob Fitzpatrick — *The Mom Test*
-- Google PAIR — People + AI Guidebook
-- [docs/03-international-frameworks.md](../../docs/03-international-frameworks.md)
+- Google PAIR. People + AI Guidebook. https://pair.withgoogle.com/guidebook/
+- Google. People + AI Research (PAIR). https://pair.withgoogle.com/
+- Google. Machine Learning Crash Course – Classification. https://developers.google.com/machine-learning/crash-course/classification
+- Google. Google Calendar. https://calendar.google.com/
+- Microsoft. Microsoft To Do. https://to-do.office.com/
+- Microsoft. Microsoft Outlook. https://outlook.office.com/
+- Notion. Notion Calendar. https://www.notion.com/product/calendar
+- Zapier. Automation Platform. https://zapier.com/
+- Google. Gmail Help — Create rules to filter your emails. https://support.google.com/mail/answer/6579
+- Nhóm C2. Ghi chép phỏng vấn học viên về việc theo dõi thông báo và deadline từ nhiều nền tảng (tài liệu nội bộ, CP4).
+- Nhóm C2. Báo cáo cá nhân và kết quả thảo luận nhóm tại workshop Discovery & Problem Framing (CP3–CP6).
